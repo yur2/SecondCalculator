@@ -1,0 +1,580 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-521cbf980c80.css" media="all" rel="stylesheet" />
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-776a9fe661a3.css" media="all" rel="stylesheet" />
+  
+  
+  
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub</title>
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    <meta property="og:url" content="https://github.com">
+    <meta property="og:site_name" content="GitHub">
+    <meta property="og:title" content="Build software better, together">
+    <meta property="og:description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 77 million projects.">
+    <meta property="og:image" content="https://assets-cdn.github.com/images/modules/open_graph/github-logo.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image" content="https://assets-cdn.github.com/images/modules/open_graph/github-mark.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="620">
+    <meta property="og:image" content="https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="620">
+
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MjQ0Njc4MTQ3OjQ3MDIwZjIyN2Q4MjJhMTQxNGI1Y2MwNWM2NWJiZDRlMTg3YmJkOTA4NzAyNDE5YmYxOWUzNTdlYjFiNWNlZGY=--412ed288bb057250fecf1db7a49c3a252d8d3865">
+  <meta name="pjax-timeout" content="1000">
+  <link rel="sudo-modal" href="/sessions/sudo_modal">
+  <meta name="request-id" content="DB26:1DB68:90086AB:C993253:5A732A66" data-pjax-transient>
+  
+
+  <meta name="selected-link" value="/" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="DB26:1DB68:90086AB:C993253:5A732A66" name="octolytics-dimension-request_id" /><meta content="sea" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" /><meta content="29810714" name="octolytics-actor-id" /><meta content="yur2" name="octolytics-actor-login" /><meta content="0af5bc79b76ad1cb51700ccd2a73a63d2953c937a37d8dcf5c29f8b9b0252e83" name="octolytics-actor-hash" />
+<meta content="https://github.com/hydro_browser_events" name="hydro-events-url" />
+<meta content="/dashboard" data-pjax-transient="true" name="analytics-location" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged In">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+  <meta name="user-login" content="yur2">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="MzRlZjk3ZGE1NGI3MzNkNDVkNzQzMDcwM2Q1MWU4NDdiZTFiMmNmM2M0ZDI4NTY4YjFhYThjZDY1NTkzYmMyYXx7InJlbW90ZV9hZGRyZXNzIjoiMTEyLjE2OS4xNTguMTY5IiwicmVxdWVzdF9pZCI6IkRCMjY6MURCNjg6OTAwODZBQjpDOTkzMjUzOjVBNzMyQTY2IiwidGltZXN0YW1wIjoxNTE3NDk2OTM1LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,MULTIPLE_ATTRIBUTION,FREE_TRIALS,MARKETPLACE_HERO_CARD_UPLOADER,CONTRIBUTOR_FLAGGED_CONTENT">
+
+  <meta name="html-safe-nonce" content="815d35c0604579b1c3dcd6a251c0b359ce6fe64f">
+
+  <meta http-equiv="x-pjax-version" content="eeb7c70f9a8f60c7c81939a2526c62fe">
+  
+
+      <link href="/yur2.private.atom?token=AcbgGsxpRs7_FN64MoqE9rggamtwibEcks64fwtmwA==" rel="alternate" title="ATOM" type="application/atom+xml" />
+
+
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+
+
+  </head>
+
+  <body class="logged-in env-production false page-dashboard">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="bg-black text-white p-3 show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        
+<header class="Header  f5" role="banner">
+  <div class="d-flex px-3 flex-justify-between container-lg">
+    <div class="d-flex flex-justify-between">
+      <a class="header-logo-invertocat" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
+  <svg aria-hidden="true" class="octicon octicon-mark-github" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+
+
+    </div>
+
+    <div class="HeaderMenu d-flex flex-justify-between flex-auto">
+      <div class="d-flex">
+            <div class="">
+              <div class="header-search   js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/search" class="js-site-search-form" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <label class="form-control header-search-wrapper js-chromeless-input-container">
+        <a href="/dashboard" class="header-search-scope no-underline">/dashboard</a>
+      <input type="text"
+        class="form-control header-search-input js-site-search-focus  "
+        data-hotkey="s"
+        name="q"
+        value=""
+        placeholder="Search GitHub"
+        aria-label="Search GitHub"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off">
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+            </div>
+
+          <ul class="d-flex pl-2 flex-items-center text-bold list-style-none" role="navigation">
+            <li>
+              <a href="/pulls" aria-label="Pull requests you created" class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:pulls context:user" data-hotkey="g p" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls">
+                Pull requests
+</a>            </li>
+            <li>
+              <a href="/issues" aria-label="Issues you created" class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:issues context:user" data-hotkey="g i" data-selected-links="/issues /issues/assigned /issues/mentioned /issues">
+                Issues
+</a>            </li>
+                <li>
+                  <a href="/marketplace" class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:marketplace context:user" data-selected-links=" /marketplace">
+                    Marketplace
+</a>                </li>
+            <li>
+              <a href="/explore" class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore">
+                Explore
+</a>            </li>
+          </ul>
+      </div>
+
+      <div class="d-flex">
+        
+<ul class="user-nav d-flex flex-items-center list-style-none" id="user-links">
+  <li class="dropdown js-menu-container">
+    <span class="d-inline-block  px-2">
+      
+
+    </span>
+  </li>
+
+  <li class="dropdown js-menu-container">
+    <details class="dropdown-details details-reset js-dropdown-details d-flex px-2 flex-items-center">
+      <summary class="HeaderNavlink"
+         aria-label="Create new…"
+         data-ga-click="Header, create new, icon:add">
+        <svg aria-hidden="true" class="octicon octicon-plus float-left mr-1 mt-1" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 9H7v5H5V9H0V7h5V2h2v5h5z"/></svg>
+        <span class="dropdown-caret mt-1"></span>
+      </summary>
+
+      <ul class="dropdown-menu dropdown-menu-sw">
+        
+<a class="dropdown-item" href="/new" data-ga-click="Header, create new repository">
+  New repository
+</a>
+
+  <a class="dropdown-item" href="/new/import" data-ga-click="Header, import a repository">
+    Import repository
+  </a>
+
+<a class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, create new gist">
+  New gist
+</a>
+
+  <a class="dropdown-item" href="/organizations/new" data-ga-click="Header, create new organization">
+    New organization
+  </a>
+
+
+
+
+      </ul>
+    </details>
+  </li>
+
+  <li class="dropdown js-menu-container">
+
+    <details class="dropdown-details details-reset js-dropdown-details d-flex pl-2 flex-items-center">
+      <summary class="HeaderNavlink name mt-1"
+        aria-label="View profile and more"
+        data-ga-click="Header, show menu, icon:avatar">
+        <img alt="@yur2" class="avatar float-left mr-1" src="https://avatars0.githubusercontent.com/u/29810714?s=40&amp;v=4" height="20" width="20">
+        <span class="dropdown-caret"></span>
+      </summary>
+
+      <ul class="dropdown-menu dropdown-menu-sw">
+        <li class="dropdown-header header-nav-current-user css-truncate">
+          Signed in as <strong class="css-truncate-target">yur2</strong>
+        </li>
+
+        <li class="dropdown-divider"></li>
+
+        <li><a class="dropdown-item" href="/yur2" data-ga-click="Header, go to profile, text:your profile">
+          Your profile
+        </a></li>
+        <li><a class="dropdown-item" href="/yur2?tab=stars" data-ga-click="Header, go to starred repos, text:your stars">
+          Your stars
+        </a></li>
+          <li><a class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, your gists, text:your gists">Your Gists</a></li>
+
+        <li class="dropdown-divider"></li>
+
+        <li><a class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">
+          Help
+        </a></li>
+
+        <li><a class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">
+          Settings
+        </a></li>
+
+        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="+H8jlYYT0kbEnoei3Hkew9Y1fsIedbsG2BAALJbaHzJY/4JIAt39tZ8ODxWM4X0ODgmoM/GqRgxIfrFtSjRK8g==" /></div>
+          <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+            Sign out
+          </button>
+        </form></li>
+      </ul>
+    </details>
+  </li>
+</ul>
+
+
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="7hlzKQ5Ra/Gcf0zvzgtgGir6oyf27q60AIU6NbNRjKJOmdL0ip9EAsfvxFiekwPX8sZ11hkxU76Q64t0b7/ZYg==" /></div>
+          <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+            Sign out
+          </button>
+</form>      </div>
+    </div>
+  </div>
+</header>
+
+      
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+    <div class="flash flash-full flash-notice">
+  <div class="container">
+    <button class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    
+      Your repository &quot;yur2/SecondCalcul&quot; was successfully deleted.
+
+  </div>
+</div>
+</div>
+
+
+
+  <div role="main" class="application-main ">
+      
+      <div id="js-pjax-container" data-pjax-container>
+        
+
+
+
+
+
+  <div class="shelf intro-shelf js-notice">
+  <div class="container">
+    <div class="shelf-content">
+      <h2 class="shelf-title">Learn Git and GitHub without any code!</h2>
+      <p class="shelf-lead">
+        Using the Hello World guide, you’ll create a repository, start a branch, <br>write comments, and open a pull request.
+      </p>
+      <a href="https://guides.github.com/activities/hello-world/" class="btn btn-primary shelf-cta" target="_blank" data-ga-click="Hello World, click, Clicked Let's get started button">Read the guide</a>
+      <a href="/new" class="btn shelf-cta ml-3" data-ga-click="Hello World, click, Clicked new repository button - context:user">Start a project</a>
+    </div>
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/dashboard/dismiss_bootcamp" class="shelf-dismiss js-notice-dismiss" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="_method" type="hidden" value="delete" /><input name="authenticity_token" type="hidden" value="Wtl0qFb3FEDuCqjne5EM7kg9w/7fvWsi8lKd6V7oZX2E9eL8cHUNZ5y3bCiqtSLD7tWrnwFSPTe2FIL78JzmXQ==" /></div>
+        <button
+            type="submit"
+            class="close-button tooltipped tooltipped-w"
+            aria-label="Hide this notice forever"
+            data-ga-click="Hello World, click, Dismissed Hello World"
+            data-ga-load="Hello World, linkview, Viewed Hello World">
+          <svg aria-label="Hide this notice forever" class="octicon octicon-x v-align-text-top" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        </button>
+</form>  </div>
+</div>
+
+
+  <div class="container page-content">
+    <div id="dashboard" class="columns dashboard">
+      <div class="news column two-thirds">
+
+
+          <div class="tabnav mb-4">
+            <nav class="tabnav-tabs" aria-label="Navigate your dashboard">
+              <a href="/" class="tabnav-tab selected" aria-current="page">Browse activity</a>
+              <a href="/dashboard/discover" class="tabnav-tab">Discover repositories</a>
+            </nav>
+          </div>
+
+        
+
+              <div class="watch_started"><div class="body"><!-- watch -->
+<div class="d-flex flex-items-baseline border-bottom border-gray-light py-3">
+  <a href="/kyuwankim"><img alt="@kyuwankim" class="avatar mr-3" height="32" src="https://avatars0.githubusercontent.com/u/16532188?s=64&amp;v=4" width="32" /></a>
+  <div class="d-flex flex-column width-full">
+    <div>
+      <div class="d-flex flex-justify-between flex-items-baseline">
+        <div>
+          <a href="/kyuwankim" class="link-gray-dark text-bold wb-break-all" data-ga-click="News feed, event click, Event click type:WatchEvent target:actor" data-hydro-click="{&quot;event_type&quot;:&quot;news_feed.event.click&quot;,&quot;payload&quot;:{&quot;action_target&quot;:&quot;actor&quot;,&quot;event&quot;:{&quot;repo_id&quot;:116469498,&quot;actor_id&quot;:16532188,&quot;public&quot;:true,&quot;type&quot;:&quot;WatchEvent&quot;,&quot;target_id&quot;:null,&quot;id&quot;:7073303883,&quot;additional_details_shown&quot;:true},&quot;originating_request_id&quot;:&quot;DB26:1DB68:90086AB:C993253:5A732A66&quot;}}" data-hydro-hmac="a909f95f15ba6958c10b23258b8cfbb99a0ebd0ca6ac019208ad1dcb7068fab9">kyuwankim</a> starred <a href="/yur2/SelectionDisorder" class="link-gray-dark text-bold wb-break-all" data-ga-click="News feed, event click, Event click type:WatchEvent target:repo" data-hydro-click="{&quot;event_type&quot;:&quot;news_feed.event.click&quot;,&quot;payload&quot;:{&quot;action_target&quot;:&quot;repo&quot;,&quot;event&quot;:{&quot;repo_id&quot;:116469498,&quot;actor_id&quot;:16532188,&quot;public&quot;:true,&quot;type&quot;:&quot;WatchEvent&quot;,&quot;target_id&quot;:null,&quot;id&quot;:7073303883,&quot;additional_details_shown&quot;:true},&quot;originating_request_id&quot;:&quot;DB26:1DB68:90086AB:C993253:5A732A66&quot;}}" data-hydro-hmac="3037e1bc284c6fd3b0e37c526bbf43814eff19a8f04e7c78ca3bbd287585dc21">yur2/SelectionDisorder</a>
+        </div>
+        <span class="f6 text-gray-light no-wrap ml-4">
+          <relative-time datetime="2018-01-09T06:25:00Z">Jan 9, 2018</relative-time>
+        </span>
+      </div>
+    </div>
+
+      <div class="border rounded-1 p-3 my-2">
+        <div>
+          <span class="f3 lh-condensed text-bold text-gray-dark"><a href="/yur2/SelectionDisorder" class="link-gray-dark text-bold wb-break-all" data-ga-click="News feed, event click, Event click type:WatchEvent target:repo" data-hydro-click="{&quot;event_type&quot;:&quot;news_feed.event.click&quot;,&quot;payload&quot;:{&quot;action_target&quot;:&quot;repo&quot;,&quot;event&quot;:{&quot;repo_id&quot;:116469498,&quot;actor_id&quot;:16532188,&quot;public&quot;:true,&quot;type&quot;:&quot;WatchEvent&quot;,&quot;target_id&quot;:null,&quot;id&quot;:7073303883,&quot;additional_details_shown&quot;:true},&quot;originating_request_id&quot;:&quot;DB26:1DB68:90086AB:C993253:5A732A66&quot;}}" data-hydro-hmac="3037e1bc284c6fd3b0e37c526bbf43814eff19a8f04e7c78ca3bbd287585dc21">yur2/SelectionDisorder</a></span>
+          <p class="text-gray mt-1 mb-0">
+            
+          </p>
+
+          <p class="f6 text-gray mt-2 mb-0">
+              <span class="d-inline-block text-gray mr-3">
+                <span class="repo-language-color ml-0" style="background-color:#b07219;"></span>
+                <span itemprop="programmingLanguage">Java</span>
+              </span>
+
+
+
+              <span>Updated Jan 6</span>
+          </p>
+        </div>
+      </div>
+  </div>
+</div>
+</div></div>
+
+
+          <div class="f6 text-gray mt-4">
+            <svg aria-hidden="true" class="octicon octicon-light-bulb text-gray" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"/></svg>
+            <strong>ProTip!</strong>
+            The feed shows you events from people you <a href="/yur2/following">follow</a> and repositories you <a href="/watching">watch</a>.
+            <a class="f6 link-gray mt-2 d-inline-block" href="/yur2.private.atom?token=AcbgGsxpRs7_FN64MoqE9rggamtwibEcks64fwtmwA==" data-ga-click="Dashboard, click, News feed atom/RSS link - context:user"><svg aria-hidden="true" class="octicon octicon-rss mr-1" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M2 13H0v-2c1.11 0 2 .89 2 2zM0 3v1a9 9 0 0 1 9 9h1C10 7.48 5.52 3 0 3zm0 4v1c2.75 0 5 2.25 5 5h1c0-3.31-2.69-6-6-6z"/></svg>Subscribe to your news feed</a>
+          </div>
+
+      </div>
+
+      <div class="dashboard-sidebar column one-third">
+          
+  <div class="octofication js-notice">
+    <div class="message">
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/account/read_broadcast/2483" class="notice-dismiss js-notice-dismiss" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="_method" type="hidden" value="put" /><input name="authenticity_token" type="hidden" value="pswZ6fg8vCWaKhazw2giBfsiaDUj2L+uQ7+X7piy+eBqy0m/y6pN/yVm9/QO82TRqkfWJeeTVAm3y9HfkRnuww==" /></div>
+        <button type="submit" class="close-button"
+          data-ga-click="Dashboard, dismiss broadcast, Game Off 2017 winners"
+          data-ga-load="Dashboard, load broadcast, Game Off 2017 winners">
+          <svg aria-label="Close" class="octicon octicon-x" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        </button>
+</form>      <div class="broadcast-icon">
+        <svg aria-hidden="true" class="octicon octicon-radio-tower" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path fill-rule="evenodd" d="M4.79 6.11c.25-.25.25-.67 0-.92-.32-.33-.48-.76-.48-1.19 0-.43.16-.86.48-1.19.25-.26.25-.67 0-.92a.613.613 0 0 0-.45-.19c-.16 0-.33.06-.45.19-.57.58-.85 1.35-.85 2.11 0 .76.29 1.53.85 2.11.25.25.66.25.9 0zM2.33.52a.651.651 0 0 0-.92 0C.48 1.48.01 2.74.01 3.99c0 1.26.47 2.52 1.4 3.48.25.26.66.26.91 0s.25-.68 0-.94c-.68-.7-1.02-1.62-1.02-2.54 0-.92.34-1.84 1.02-2.54a.66.66 0 0 0 .01-.93zm5.69 5.1A1.62 1.62 0 1 0 6.4 4c-.01.89.72 1.62 1.62 1.62zM14.59.53a.628.628 0 0 0-.91 0c-.25.26-.25.68 0 .94.68.7 1.02 1.62 1.02 2.54 0 .92-.34 1.83-1.02 2.54-.25.26-.25.68 0 .94a.651.651 0 0 0 .92 0c.93-.96 1.4-2.22 1.4-3.48A5.048 5.048 0 0 0 14.59.53zM8.02 6.92c-.41 0-.83-.1-1.2-.3l-3.15 8.37h1.49l.86-1h4l.84 1h1.49L9.21 6.62c-.38.2-.78.3-1.19.3zm-.01.48L9.02 11h-2l.99-3.6zm-1.99 5.59l1-1h2l1 1h-4zm5.19-11.1c-.25.25-.25.67 0 .92.32.33.48.76.48 1.19 0 .43-.16.86-.48 1.19-.25.26-.25.67 0 .92a.63.63 0 0 0 .9 0c.57-.58.85-1.35.85-2.11 0-.76-.28-1.53-.85-2.11a.634.634 0 0 0-.9 0z"/></svg>
+        <span class="broadcast-icon-mask"></span>
+        <span class="broadcast-icon-mask"></span>
+      </div>
+      <h3><a href="/blog/2483-game-off-2017-winners" data-ga-click="Dashboard, read broadcast, Game Off 2017 winners">Game Off 2017 winners</a></h3>
+      <p></p>
+    </div>
+    <div class="octofication-more">
+      <a href="/blog/broadcasts">
+          View <strong>10</strong> new broadcasts
+      </a>
+    </div>
+  </div>
+
+
+        
+
+
+        <div id="your_repos" class="js-repos-container" data-pjax-container>
+          
+<div class="boxed-group flush repos user-repos" role="navigation">
+  <div class="boxed-group-action">
+    <a href="/new" class="btn btn-sm btn-primary" data-ga-click="Dashboard, click, Sidebar header new repo button - context:user">New repository</a>
+  </div>
+  <h3>
+    Your repositories
+    <span class="Counter">16</span>
+  </h3>
+  <div class="boxed-group-inner">
+    <div class="filter-repos filter-bar" role="search">
+  <input type="text" class="form-control input-sm input-block js-filterable-field js-your-repositories-search" id="your-repos-filter" placeholder="Find a repository&hellip;" aria-label="Find a repository&hellip;" tabindex="2" data-url="https://github.com/" data-query-name="q" value="">
+  <ul class="repo-filterer">
+    <li><a data-pjax data-pjax-preserve-scroll class="btn-link repo-filter js-repo-filter-link text-small text-gray filter-selected" href="https://github.com/dashboard" data-ga-click="Dashboard, click, Repo list filter - context:user filter:all">All</a></li>
+    <li><a data-pjax data-pjax-preserve-scroll class="btn-link repo-filter js-repo-filter-link text-small text-gray" href="https://github.com/dashboard?privacy=PUBLIC" data-ga-click="Dashboard, click, Repo list filter - context:user filter:public">Public</a></li>
+    <li><a data-pjax data-pjax-preserve-scroll class="btn-link repo-filter js-repo-filter-link text-small text-gray" href="https://github.com/dashboard?privacy=PRIVATE" data-ga-click="Dashboard, click, Repo list filter - context:user filter:private">Private</a></li>
+    <li><a data-pjax data-pjax-preserve-scroll class="btn-link repo-filter js-repo-filter-link text-small text-gray" href="https://github.com/dashboard?fork=0" data-ga-click="Dashboard, click, Repo list filter - context:user filter:sources">Sources</a></li>
+    <li><a data-pjax data-pjax-preserve-scroll class="btn-link repo-filter js-repo-filter-link text-small text-gray" href="https://github.com/dashboard?fork=1" data-ga-click="Dashboard, click, Repo list filter - context:user filter:forks">Forks</a></li>
+  </ul>
+</div>
+
+      
+<ul class="mini-repo-list" data-filterable-for="your-repos-filter" data-filterable-type="substring">
+    <li class="public source">
+      <a class="mini-repo-list-item css-truncate" href="/yur2/SecondCalculator" data-ga-click="Dashboard, click, Repo list item click - context:user visibility:public fork:false">
+          <svg aria-hidden="true" class="octicon octicon-repo repo-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+        <span class="repo-and-owner css-truncate-target" title="yur2/SecondCalculator">
+          <span class="repo">SecondCalculator</span>
+        </span>
+      </a>
+    </li>
+    <li class="public source">
+      <a class="mini-repo-list-item css-truncate" href="/yur2/SelectionDisorder" data-ga-click="Dashboard, click, Repo list item click - context:user visibility:public fork:false">
+          <svg aria-hidden="true" class="octicon octicon-repo repo-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+        <span class="repo-and-owner css-truncate-target" title="yur2/SelectionDisorder">
+          <span class="repo">SelectionDisorder</span>
+        </span>
+      </a>
+    </li>
+    <li class="public source">
+      <a class="mini-repo-list-item css-truncate" href="/kyuwankim/TestProject" data-ga-click="Dashboard, click, Repo list item click - context:user visibility:public fork:false">
+          <svg aria-hidden="true" class="octicon octicon-repo repo-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+        <span class="repo-and-owner css-truncate-target" title="kyuwankim/TestProject">
+          <span class="owner css-truncate-target">kyuwankim</span>/<span class="repo">TestProject</span>
+        </span>
+      </a>
+    </li>
+    <li class="public source">
+      <a class="mini-repo-list-item css-truncate" href="/yur2/DecisionDisorder" data-ga-click="Dashboard, click, Repo list item click - context:user visibility:public fork:false">
+          <svg aria-hidden="true" class="octicon octicon-repo repo-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+        <span class="repo-and-owner css-truncate-target" title="yur2/DecisionDisorder">
+          <span class="repo">DecisionDisorder</span>
+        </span>
+      </a>
+    </li>
+    <li class="public source">
+      <a class="mini-repo-list-item css-truncate" href="/yur2/yul_project" data-ga-click="Dashboard, click, Repo list item click - context:user visibility:public fork:false">
+          <svg aria-hidden="true" class="octicon octicon-repo repo-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+        <span class="repo-and-owner css-truncate-target" title="yur2/yul_project">
+          <span class="repo">yul_project</span>
+        </span>
+      </a>
+    </li>
+    <li class="public source">
+      <a class="mini-repo-list-item css-truncate" href="/yur2/web" data-ga-click="Dashboard, click, Repo list item click - context:user visibility:public fork:false">
+          <svg aria-hidden="true" class="octicon octicon-repo repo-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+        <span class="repo-and-owner css-truncate-target" title="yur2/web">
+          <span class="repo">web</span>
+        </span>
+      </a>
+    </li>
+    <li class="public source">
+      <a class="mini-repo-list-item css-truncate" href="/yur2/Lotto" data-ga-click="Dashboard, click, Repo list item click - context:user visibility:public fork:false">
+          <svg aria-hidden="true" class="octicon octicon-repo repo-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+        <span class="repo-and-owner css-truncate-target" title="yur2/Lotto">
+          <span class="repo">Lotto</span>
+        </span>
+      </a>
+    </li>
+</ul>
+
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/dashboard/ajax_your_repos" class="more-repos ajax-pagination-form js-ajax-pagination js-more-repos-form" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <input name="your_repos_cursor" type="hidden" value="Y3Vyc29yOnYyOpK5MjAxNy0wOC0yM1QxNTozMzo1NyswOTowMM4GB1jc">
+    <button type="submit" class="btn-link width-full more-repos-link js-more-repos-link" data-disable-with="Loading more&hellip;" data-ga-click="Dashboard, click, Ajax more repos link - context:user">Load more&hellip;</button>
+</form>
+  </div>
+</div>
+
+        </div>
+
+      </div><!-- /sidebar -->
+    </div><!-- /#dashboard -->
+  </div><!-- /.container -->
+
+      </div>
+      <div class="modal-backdrop js-touch-events"></div>
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between py-6 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.17578s from unicorn-3519590649-k659m">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li class="mr-3"><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage" class="footer-octicon" title="GitHub">
+      <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+    <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+
+    </ul>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    
+    <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-5cc189bf2cb5.js"></script>
+    
+    <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-68cb10345460.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+
+  </body>
+</html>

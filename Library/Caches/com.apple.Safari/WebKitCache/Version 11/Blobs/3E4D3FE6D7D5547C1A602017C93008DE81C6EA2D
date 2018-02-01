@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="referrer" content="origin">
+<title>쇼핑박스 :: 네이버</title>
+<link rel="stylesheet" type="text/css" href="https://s.pstatic.net/imgshopping/static/sb/css/shopboxR0009_v3.css?v=2018012418" media="all"/>
+<script type="text/javascript">
+document.domain = "naver.com";
+var tabTitle = {"tabUrlJson":{"productAd":"productAd.nhn","productAdBanner":"productAdBanner.nhn","mallAd":"mallAd.nhn","menAd":"menAd.nhn","menAdContents":"menAdContents.nhn","productAdContents":"productAdContents.nhn","menAdBanner":"menAdBanner.nhn"}}; 
+var tabTitle = tabTitle.tabUrlJson;
+var isMobile = eval('false');
+</script>
+</head>
+<body>
+	<div id="shop_wrap" class="shop_wrap">
+	
+		<!-- Shop Header -->		
+		<div class="shop_header">
+			<h1><a href="http://shopping.naver.com/" class="sh_tit" target="_parent"><span class="blind">쇼핑</span><span class="sh_icon"></span></a><!--N=a:stc.shopping--></h1>
+
+			<!-- Shop tab -->
+	        <ul id="tab_title" class="shop_tab">
+	            <li id="tab_productAd" class=""><a href="#" class="st_a st_gift" onclick="javascript:return false;" title="상품은 광고영역입니다."><span class="blind">상품</span><span class="st_icon"></span></a><!--N=a:stc.goods--></li>		<!-- 최상단 상품 버튼 -->
+				<li id="tab_mallAd" class="on"><a href="#" class="st_a st_shopping" onclick="javascript:return false;" title="쇼핑몰은 광고영역입니다."><span class="blind">쇼핑몰</span><span class="st_icon"></span></a><!--N=a:stc.mall--></li>	<!-- 최상단 몰버튼 -->
+				<li id="tab_menAd" class=""><a href="#" class="st_a st_mens" onclick="javascript:return false;" title="MEN은 광고영역입니다."><span class="blind">MEN</span><span class="st_icon"></span></a><!--N=a:stc.men--></li>	<!-- 최상단 멘즈 버튼 -->
+			</ul>
+	        <!-- //Shop tab -->
+        </div>
+        <!-- //Shop Header -->
+        
+        <!-- Flicking -->
+		<div id="contents" class="flick-view">
+			<div class="flick-container">
+				<!-- 하단 쇼핑몰 영역 -->
+				<div class="flick-panel">
+						<h3 class="blind">쇼핑몰</h3>
+<!-- shop_t2 -->
+<div class="shop_t2">
+<!-- shop_t2_slide -->
+	<div class="shop_t2_slide">
+
+		<!-- 트렌드몰 A형 광고 -->
+		<div id="mallAdAType">
+			<div class="bx_mall">
+				<div class="malltit_w">
+					<!-- 상단 몰 정보 -->
+					<!-- 몰로고 -->
+						<h4 class="malltit">						
+							<a href="http://adcr.shopping.naver.com/adcr.nhn?x=ehDhQVhKvNb9USXsgolmB%2F%2F%2F%2Fw%3D%3DsxYgOL1FQYXBX1VMzVBhpfITDqZan6W8jtcpWi7aGEVf%2FSzyVbaFpBuXW5T4o40tjFy7BVyvoUEza1ptQuI2boYZAgk9ukMqmo9wwUInRCJ69g7gmlCohWfAWo49i6FzVnEDxCvm7ovEvHSNiz0atW%2FajHIDb5HeLKcfee8LWXfW6YMOAF3pmNwzxnd0vEm7RIwEvoj7ltOutoZC8nizwXW9XQyj52TI9Jj9xIJ5zKETUV203EqLxGX2NXGtl5iUuTfpfSTF9FkDHKCJ6QbUyU3ZVdfyB%2FlIJ6cyYpDqvvbi4uNZQu%2FfAs0AjIdQc2ev2B9dFQHHt6bawz4maLNWyMqS0XZeiBUEJYeIrPi5YDouGXd6mCxBZImik%2BRbx%2BZMVyQTQmyf%2FwfTnFlO5HK9OGSxqNSoNQa7NIz6BTX4YwQrf0az3%2BGzNXCsEurVJSZSHx%2Fj6083WwSiO7i%2BO1ArrkuNa77WF0TH5LDUfEC6OhwJ9UXnX8Gjy89%2FzxVDSRJUaG3Po5%2B2lMoQIV1vUIDHiXIZBaLSAVd8UKxGXeMSSDdk%3D" target="_blank">
+							<strong>젖병소독기유팡</strong>
+								</a><!--N=a:mal.amalname,i:94911-->
+							</h4>				
+						<!-- 바로가기~ -->
+						<a href="http://adcr.shopping.naver.com/adcr.nhn?x=24H%2BIi8HL8%2FlhBz0oulgzv%2F%2F%2Fw%3D%3DsQw0LGoEhI7ti%2BS8cBS5EgYFtruMZMP82TMk7gBjaYsgVJfYwPN0XQo%2BnTv4XwRP6rHOHKtNhMzIHibml6QlTTSYm%2BnWityuocVtdfqZ%2F6Ge1AGZgpjElKwfh4TS1bNZMEicX%2Fm%2BeSVCeAZlFS3jyhTPz9dpUzz38aoa6uyNqjpRd8szTikDJFHlclOss1VJfkyPCqB6n080G4%2FMR%2ByZCTDgMA%2Bme9dQBslgqTt5v9yAGcwRz4tzUShppJiLawJ9zleQAjGrmI9XxXys2SGUAkuUd7U28aWKGmB6SxnPoKJ%2FODBEnLHijOlNPBgM3SOiEmCMwqL%2FKeMpPCUvGJXy7Is429zkoHziWEJLs3ED3PzSd7HoKI9N4ARGIVoNjg%2BS52DvAuCf%2BgAi76OfCLO5UaCxqNSoNQa7NIz6BTX4YwQqxwplj63epOCOLVkWJ8qYmdZyTs4wAcmjYO7mjlvQSO16CRC9mkS0JfXNntFLugK8bhUU21zf7eeGIuWN1p9rSc66ddkdOwBI76k7g34UjddYDnUYYW7erHeblwobFCgE%3D" class="mall_go" target="_blank">바로가기<span class="mg_arr"></span></a><!--N=a:mal.amalgo,i:94911-->
+						</div>
+				<!--노출 영역 -->
+				<div class="glst_w">
+					<ul class="glst_u">
+						<!-- 쇼핑 컨텐츠 -->				
+						<li class="glst_l">
+								<a href="http://adcr.shopping.naver.com/adcr.nhn?x=D8sMus%2BbCpkNdLz1rXXLhf%2F%2F%2Fw%3D%3Ds0n5V%2BM%2FA1ayRprR8Qx93k7iKRdqeYN3Jhj6RtVo2oVDtR2cDrtFiP6xS%2Fa6bQ877Fy7BVyvoUEza1ptQuI2boYZAgk9ukMqmo9wwUInRCJ69g7gmlCohWfAWo49i6FzVnEDxCvm7ovEvHSNiz0atW%2FajHIDb5HeLKcfee8LWXfX3Ka09JQQmDfxFm0eTeGQ23WjYp3KmtkLiKiTj7jYYz77%2F9w22Cz%2Bt9gZ0s7tmzAeNG5YA0OvZARHgQMdsHDAJhe6FI%2Bza%2FnNSItD%2FCSxZWiFFfvxaERNNer1KaHjzr14IZXqtOcyWUrvYVUu%2BcGjqYeHco62wkLNyQLqgWQV9hUmaZ8pfoVWGOynMJ21IK2vrnEk4GaxDbBZ43NKJx4jyS1htf8ofRzJ65%2BvKKKiykEbdgOL23dXKibkKJA4NfKzVF5luM1H0xC57x87pFn8I4vjP5sK%2F%2Fy9mc3PEWBSs9SPmAJbho7qgF6GeJWpdTbnWyv0CoQnYAqYgtP5eQhQ8Ghm3SC%2F74KRTQ5oFmTD58AcQu5x3eQSg89tXnOYkCeyX6ihYEc8wjk9wPjik%2BbSFKYcbWYAaDltWRjfUmljCc2lU4LBEWmFPl2DkokBA80447IcFafEbagUegcW2qArT" class="glst_a" target="_blank">
+									<span class="glst_mw"><img src="https://s.pstatic.net/static/www/2014/blank.gif" lazyimg="https://s.pstatic.net/shopping.phinf/20171114_10/80c5c8a7-0e0c-4ca0-ac72-5ef1d64fc7da.jpg"width="92" height="69" alt="출산선물고민해? 유팡이면고민끝!" class="glst_m" ></span>
+									<span class="glst_s">
+										<span class="glst_s1">출산선물고민해?</span><!-- 컨텐츠 내용1 -->
+										<span class="glst_s2">유팡이면고민끝!</span><!-- 컨텐츠 내용2 -->
+									</span>
+								</a>								
+								<!--N=a:mal.atopitem,r:1,i:509175--></li>							
+						<li class="glst_l">
+								<a href="http://adcr.shopping.naver.com/adcr.nhn?x=8NpbYw4jCSsFCU%2Bi6HlI2v%2F%2F%2Fw%3D%3DsIGXw5XWfRiY7%2BualXbmMxvmJiqfJ5mrpbaQFbduAyxlx%2Fpvw5Gymim4rpTySFHy72nYTGLe817PRR32caB2s8pfy%2BZz4mg5%2FZAnHzWpclOxwHWZY8fhpn3yNKW59jckQj0COMyz2BFeQH53D5ISZUZ1SbqbSjp56CCQMhHDe5JTxO1RVGovBpysWdPQZBorbGtwVlVuHKj%2B4cBqyBwOWtgqjpjf8NrKNeI9iESTyMyjSI6W7BAVfHRpDef7F6g%2FRxyfkCN59GPDJmWYGZhofEg8Bgtna7fxYDEi22GyjX2%2FK5DDvFLSl8WsKGQXtQ9GhfCL%2FfISDV%2Bo%2BG5f43votGVTEQFLfDIfCtdOmKiyeciTGENfv1CBYzyRbq7CgeZYSyoslVCBzKgFGExsPRvViNZGSUXzfpD6Zx01yGzKANOqxRcyqURpdutBwWjY0Gqj%2ByK5rFfdOxLzbml4xnqewvalLp4bhXKxPnJSsCAZwfkFQ3SqKZZh5Z1CT5seZimUGVQNFwSaxIgWFJmt3ej%2BoQ0upezBMy%2F7NSkRY1rQkb2gDy5uBU3VY5IVmaenWgAiQ9rnAZPPoYezYYyCDiIWPQ0%2FqtXY%2F%2BJ%2BHtn8ZqbcaiLVR%2F76OEk6i1crtuHkVvRkP" class="glst_a" target="_blank">
+									<span class="glst_mw"><img src="https://s.pstatic.net/static/www/2014/blank.gif" lazyimg="https://s.pstatic.net/shopping.phinf/20171114_20/be83ccfd-f88e-40ac-a2a1-866d04217926.jpg"width="92" height="69" alt="젖병소독기 유팡 출산준비 필수품" class="glst_m" ></span>
+									<span class="glst_s">
+										<span class="glst_s1">젖병소독기 유팡</span><!-- 컨텐츠 내용1 -->
+										<span class="glst_s2">출산준비 필수품</span><!-- 컨텐츠 내용2 -->
+									</span>
+								</a>								
+								<!--N=a:mal.atopitem,r:2,i:509176--></li>							
+						<li class="glst_l">
+								<a href="http://adcr.shopping.naver.com/adcr.nhn?x=hoIUgBv9uXUryme%2FCNETUP%2F%2F%2Fw%3D%3DsdoE8hYvPzrlwA21f0m64LwSUrIGAvCbe4ULMts64J7hdduGSi620fZluijIsWvwZFy7BVyvoUEza1ptQuI2boYZAgk9ukMqmo9wwUInRCJ69g7gmlCohWfAWo49i6FzVnEDxCvm7ovEvHSNiz0atW%2FajHIDb5HeLKcfee8LWXfX3Ka09JQQmDfxFm0eTeGQ23WjYp3KmtkLiKiTj7jYYz77%2F9w22Cz%2Bt9gZ0s7tmzAfm9sRvjs7U1Q%2FDLWrAyRT0r7i2ycTRNJ%2BcBB8WaU%2FLUSFFfvxaERNNer1KaHjzr14IZXqtOcyWUrvYVUu%2BcGjqYeHco62wkLNyQLqgWQV9hUmaZ8pfoVWGOynMJ21IK2vxL%2FvsQSBbAH6XuUwN6C9GHH07LUKeDRnjL6aXEU6R70F5DRdGn2Iv6gWcfLokkVU3A9plMaWRzBCLz0GAd5lX8CZLn9nRjm3Uic7kBbQ2ZMZ4qJ1aG%2BR4nWRPZPth%2BQdwg0Fo6LFl5TPnfXzWohdy1pShBKKuUmhN5LltzGlPtHWck7OMAHJo2Du5o5b0EjtegkQvZpEtCX1zZ7RS7oCvG4VFNtc3%2B3nhiLljdafa0nOunXZHTsASO%2BpO4N%2BFI3XWA51GGFu3qx3m5cKGxQoB" class="glst_a" target="_blank">
+									<span class="glst_mw"><img src="https://s.pstatic.net/static/www/2014/blank.gif" lazyimg="https://s.pstatic.net/shopping.phinf/20171114_28/4e81d48c-bd82-40fe-90f6-03c3b5b03811.jpg"width="92" height="69" alt="3D 입체살균! 이젠세균걱정끝!" class="glst_m" ></span>
+									<span class="glst_s">
+										<span class="glst_s1">3D 입체살균!</span><!-- 컨텐츠 내용1 -->
+										<span class="glst_s2">이젠세균걱정끝!</span><!-- 컨텐츠 내용2 -->
+									</span>
+								</a>								
+								<!--N=a:mal.atopitem,r:3,i:509177--></li>							
+						<li class="glst_l">
+								<a href="http://adcr.shopping.naver.com/adcr.nhn?x=qnAAV5ojVKLVRuALpYsE4v%2F%2F%2Fw%3D%3DsVcTWILYO%2F07Px1nP4d3PAsZhc9u1jBTxxUuAxVo1lchZp0nioRakbfL9Al4GiZ6sFy7BVyvoUEza1ptQuI2boYZAgk9ukMqmo9wwUInRCJ69g7gmlCohWfAWo49i6FzVnEDxCvm7ovEvHSNiz0atW%2FajHIDb5HeLKcfee8LWXfX3Ka09JQQmDfxFm0eTeGQ23WjYp3KmtkLiKiTj7jYYzzSKBTzLYzF0b%2BM%2FTn0bIepUm1pOn7gvAFuUmmKlVXClDLMlc1WQO%2Bs875xDMfA4%2FA8MpmKdhSA%2BtdKBwM1DRC4AbOUNBkXjezr40%2B%2B4SO3xu03tZPdgwNkCQLoORfEmmNew4OUPqEaICT3vLuwvFtS4sS7QOu282s%2FKscg2%2B6NmKJf2aGnvUTK5Rb5AWoBXXAebEod8H%2FNDAO0vm7pfarGyf5StUBeLAAB5DGOEdLkiQu9bkTnKsapIxal0l%2F9%2Bv4F9IpkvpEBvRaex9CUZAVeiD2sFg5IXaTDYnslVKG0EkyR5uKS47Mhc%2B3JF%2FkL2QgSk3sVJdiVT3I%2BhtBCjf%2B6Kd4HIsCvQgYcw1gT9TJqXiqTnR4zB7PZHyGosStBhX77WKSTh0VJ3ZQ0q0NXoilCPkszkxqebfmPo9nMsFE%2FxRRn0TKdj4aC0ZgGSQ3lhCg%3D%3D" class="glst_a" target="_blank">
+									<span class="glst_mw"><img src="https://s.pstatic.net/static/www/2014/blank.gif" lazyimg="https://s.pstatic.net/shopping.phinf/20170310_13/7152d120-6d26-48ad-8c6a-cd65bcb536c5.jpg"width="92" height="69" alt="필립스 정품램프 살균소독 확실해" class="glst_m" ></span>
+									<span class="glst_s">
+										<span class="glst_s1">필립스 정품램프</span><!-- 컨텐츠 내용1 -->
+										<span class="glst_s2">살균소독 확실해</span><!-- 컨텐츠 내용2 -->
+									</span>
+								</a>								
+								<!--N=a:mal.abotitem,r:4,i:509178--></li>							
+						<li class="glst_l">
+								<a href="http://adcr.shopping.naver.com/adcr.nhn?x=mp80oU%2F98A16xRLSnmo14%2F%2F%2F%2Fw%3D%3DsxIl9igJrXKRFRmx0oW8QZm03W9FoMrSaxBtcc5id06FTl1XyF5emZoNqVAM5JqVVFy7BVyvoUEza1ptQuI2boYZAgk9ukMqmo9wwUInRCJ69g7gmlCohWfAWo49i6FzVnEDxCvm7ovEvHSNiz0atW%2FajHIDb5HeLKcfee8LWXfX3Ka09JQQmDfxFm0eTeGQ23WjYp3KmtkLiKiTj7jYYzzSKBTzLYzF0b%2BM%2FTn0bIerj2GygF2%2B5dGh0TSaT73ivqt86osZfWY6JBPId8grapA8MpmKdhSA%2BtdKBwM1DRC4AbOUNBkXjezr40%2B%2B4SO3xu03tZPdgwNkCQLoORfEmmNew4OUPqEaICT3vLuwvFtS4sS7QOu282s%2FKscg2%2B6NmMc2ZO1aMsq2cMX80a4r7xgebEod8H%2FNDAO0vm7pfarGyf5StUBeLAAB5DGOEdLkiVxsistSwzFBrM5h%2BI7jbioF9IpkvpEBvRaex9CUZAVfty2ZvBpD9D1fVdPPL4W%2F%2BiD9ZV4FAJsFaikh9QZzoSE143get2SaS2uJg4fLki%2FOKd4HIsCvQgYcw1gT9TJqXiqTnR4zB7PZHyGosStBhX77WKSTh0VJ3ZQ0q0NXoilCPkszkxqebfmPo9nMsFE%2FxRRn0TKdj4aC0ZgGSQ3lhCg%3D%3D" class="glst_a" target="_blank">
+									<span class="glst_mw"><img src="https://s.pstatic.net/static/www/2014/blank.gif" lazyimg="https://s.pstatic.net/shopping.phinf/20170310_13/50bc2f2d-e9bd-403d-b067-c8db99f23742.jpg"width="92" height="69" alt="적외선 저온건조 안심하고 한번에" class="glst_m" ></span>
+									<span class="glst_s">
+										<span class="glst_s1">적외선 저온건조</span><!-- 컨텐츠 내용1 -->
+										<span class="glst_s2">안심하고 한번에</span><!-- 컨텐츠 내용2 -->
+									</span>
+								</a>								
+								<!--N=a:mal.abotitem,r:5,i:509179--></li>							
+						<li class="glst_l">
+								<a href="http://adcr.shopping.naver.com/adcr.nhn?x=pFZhiQxARXJRbX%2Bnw7Gqzf%2F%2F%2Fw%3D%3DsGspmomJaSgVmsuY9vzwdIrhTadjrcbRf9YsoDUe8iBY1T9iDthlR8V5Ujv2i7zhiFy7BVyvoUEza1ptQuI2boYZAgk9ukMqmo9wwUInRCJ69g7gmlCohWfAWo49i6FzVnEDxCvm7ovEvHSNiz0atW%2FajHIDb5HeLKcfee8LWXfX3Ka09JQQmDfxFm0eTeGQ23WjYp3KmtkLiKiTj7jYYzzSKBTzLYzF0b%2BM%2FTn0bIeoZdIvKDx5FjusIBs1ZWg4o7UQLCJYVnS0G9mohCEOHPQ8MpmKdhSA%2BtdKBwM1DRC4AbOUNBkXjezr40%2B%2B4SO3xu03tZPdgwNkCQLoORfEmmNew4OUPqEaICT3vLuwvFtSo1glH3l3Tl%2BKRlfGqPJn6OlyFoLmmHmFD75C8T84fhPY4qlTas0p%2BpHD4ZGNvYR%2B4p2Qhx5YNdT26yHLCMzSUDctxaV2C895GC144rmOKLX1d9XqMn9uRK6EAgrrgRqrWqe9G2wMmF%2Br7E1cdlimFT58eR4mttjIbeHTLituvq4CMoaiB6Uw3%2FSoGQLXqJtpd57w1dc3qSz%2B5WNS1X9y%2BAT7fNFVpVLj7Fz%2Bluv8SDx1snC7PFi78cceqssgzEuCfFPE9PmYXXr2Yi5lJOR02urkUaov%2BbvPHfvbeQr7Pbg%3D%3D" class="glst_a" target="_blank">
+									<span class="glst_mw"><img src="https://s.pstatic.net/static/www/2014/blank.gif" lazyimg="https://s.pstatic.net/shopping.phinf/20170310_25/d6abd4c1-1456-4d93-ba76-953a15f4d81d.jpg"width="92" height="69" alt="우리아이 칫솔 깔끔하게활용해~" class="glst_m" ></span>
+									<span class="glst_s">
+										<span class="glst_s1">우리아이 칫솔</span><!-- 컨텐츠 내용1 -->
+										<span class="glst_s2">깔끔하게활용해~</span><!-- 컨텐츠 내용2 -->
+									</span>
+								</a>								
+								<!--N=a:mal.abotitem,r:6,i:509180--></li>							
+						</ul>
+				</div>
+				</div>
+		</div>
+		<input class="exposePage" type="hidden" value="1" name="exposePage"/>
+		<input class="order" type="hidden" value="9" name="order"/>
+		<input class="totalCount" type="hidden" value="13" name="totalCount"/>
+		<input class="tabName" type="hidden" value="mallAd" name="tabName"/>
+		<!-- 트렌드몰 A형 광고 -->
+
+		<!-- 트렌드몰 B형 광고 -->
+		<div id="mallAdBType">
+			<div class="bx_sale">
+			<p class="bx_sale_p"><a href="http://adcr.shopping.naver.com/adcr.nhn?x=hSpg%2FImsmEjEovpcwGT6Zv%2F%2F%2Fw%3D%3DspDbfcfUxoSjoexZdVzqISgbVM%2F1HSGVzfkTd3yLesKdLj%2FAk9ADNIOOZ24JUXNdL2nYTGLe817PRR32caB2s8syBEIcOJPq7cbVEbDi5ho8STUZiFx6c0gUqTV%2BL7j2zIVMONKzDsDglyFR625822p1SbqbSjp56CCQMhHDe5JQI%2B8bj81wzVgzHdL%2FOKp4Nu2lUyMs0RL%2BsCDmoQSWsR4MrpEFOlSZIwVDQ2CTiJ3g1g5c2fHZ6ucQcd4fwxVnopUjruJR%2BvF4YslaSbX09i6leco0elZgwJyApJtN8MXl1Vb1XzKmjD6Idarsaoct0Wnf0s6vquEwB%2BkNI6NQh1bkzVfOR2%2Fiif0yiDhDYw3zae9wiipnCDRlmIQoTujyeV1GyYBAxPdxN5p%2BdRYj2I1Z9Jq%2BiPyVMl9keq0IYiOaf8FK5xyYSjx6f7qXNkegOQCWICv8qxnyWY8NvWnAGy9tnc2Nz69lXnBZDGkC%2BFlyKd4HIsCvQgYcw1gT9TJqXiqTnR4zB7PZHyGosStBhX77WKSTh0VJ3ZQ0q0NXoilCPkszkxqebfmPo9nMsFE%2FxRRn0TKdj4aC0ZgGSQ3lhCg%3D%3D" class="bx_sale_a" target="_blank"><span class="bx_ico_sale"><span class="blind">sale</span></span> 소중한 내 아기를 위한 특별한 선물~</a><!--N=a:mal.atext,i:94911--></p>
+		</div>
+		<!-- 트렌드몰 B형 Top -->
+			<div class="bx_mall">
+			<div class="malltit_w">
+				<!-- 상단 몰 정보 -->
+				<!-- 몰로고 -->
+					<h4 class="malltit">						
+						<a href="http://adcr.shopping.naver.com/adcr.nhn?x=UFDgadKhTjv33fwUSrRYkf%2F%2F%2Fw%3D%3DsFiQUAQoW8u1XwktrNrbW4XOU22%2BGGYQ5S5VI9q4e1vArJGTJ3QPDQJ9mnHSnzNdZrHOHKtNhMzIHibml6QlTTeAf%2BAoQGMG7WD5pStDtMR%2FTVC7FVltyZPJlrtTSiDSqcusje4q8EnmEmHZ7sSEa7zPz9dpUzz38aoa6uyNqjpROiCR4PXAAd9bBnjd3UzRLiukLiPVSscTgeu3%2FmI7TPsyboKFCBg3WhrC5ZHv7L6n0zVs7N8yistM8XHdqg7sCS1QrFLPvVefa8NR0yJrS26PbkvVcp98VNQgz3V82OGtqfAdzetkCVDfTXNRgyLlapUjruJR%2BvF4YslaSbX09i6leco0elZgwJyApJtN8MXl1Vb1XzKmjD6Idarsaoct0Wnf0s6vquEwB%2BkNI6NQh1QVWZLuz4RQ2zfdKh8Br%2Fk8hcYJuVQlTv5wz1apKQeNk8gANfhVjsTWMIuCNLd3vUG2JL7sWsFeuoaHTv%2FlhhpzApFMs9u3RLjfsbNq4mkDMIS8HlGLqoOO9m%2Br6gy0PJJ%2BPVKtfg%2FC%2BJ8GZHiGBe9qPezLg2137h6XaTCvBu%2FNF0Kbz5OEcvrUBWGVTOHHxv7gy%2FkEVpit2Ka6gjjLFZgk1DhAOtudShf4eB9mVVR6AIK7WB%2FiYDKBXEFEyd06gQg%3D%3D" target="_blank">
+						<img src="https://s.pstatic.net/static/www/2014/blank.gif" lazyimg="https://s.pstatic.net/imgshopping/mallimg/logo/7615_trendmall/433042_7615_1478681900450.gif"height="15" alt="마리오아울렛몰" ></a><!--N=a:mal.b1malname,i:433042-->
+						</h4>				
+					<!-- 바로가기~ -->
+					<a href="http://adcr.shopping.naver.com/adcr.nhn?x=kAw3r3%2BWrQmGZNEYFDCYPv%2F%2F%2Fw%3D%3DsrPNoAzetZ%2Fm63Kpm5zFytVlfgSuU32YtRd%2BIuASE2BHDhLuvzd53Mmol%2FjUAOYHF%2FCzR7oduAJ0Ft1wXRBU3SE%2B5X6wrSmGZdiln8tgegFSBjWduFRTYVf4pFRqdvuaZollcI9GQkoHIThWwyTAytZgev5z9Ke3fdEOpFRccj%2Bxti1KO0zLDiZzAhrXmcprfPIDwzDNhUhn2flJqLRvHcLfQJeL5s%2BdYHRB%2BRneoc2AXH%2FnR6rCeKOVFV%2BGIh8YWXgv0UvAVmGJrCyQ7MIEM3WJA55n9cziCUZ%2BDV07rp3%2BZEVBuN68Am6M5PCCnmDUaRztzL%2FvxNFNLEKCqAV6BPtRXbTcSovEZfY1ca2XmJS5N%2Bl9JMX0WQMcoInpBtTJTdlV1%2FIH%2BUgnpzJikOq%2B9uLi41lC798CzQCMh1BzZ6%2Fa1htEsWZGqxkzK3LqQKJjVL1FNm9DBRdAQcjdtMi1v9JeOv1okiuBkdc2vzXWwwYwtQq7NjbWEv2TviPYlp6NNURmonBg%2Fiip9IIeGDhagd6NaOHZrH%2B5sl9m%2B4mRUS31w9KQm7IqaXXMLO9Xvmdzel%2BooWBHPMI5PcD44pPm0hUlI0DGJmB05l3R5YUZShN8gxovLw%2BvtPyQMNiJKZIvWWoUejlEIs0isa7NyXMyErA%3D%3D" class="mall_go" target="_blank">바로가기<span class="mg_arr"></span></a><!--N=a:mal.b1malgo,i:433042-->
+					</div>
+			<!--노출 영역 -->
+			<div class="glst_w">
+				<ul class="glst_u">
+					<!-- 쇼핑 컨텐츠 -->			
+					<li class="glst_l">
+							<a href="http://adcr.shopping.naver.com/adcr.nhn?x=CMPwyiTkeDAzpTmjsQkcvP%2F%2F%2Fw%3D%3DsQ311wdP2EyCqGK4ne9VFN4m8mra6lSFbRxTTeClK%2F64Rj%2FZ5ri%2ByBFPO5HR49wGXrHOHKtNhMzIHibml6QlTTeAf%2BAoQGMG7WD5pStDtMR%2FTVC7FVltyZPJlrtTSiDSqcusje4q8EnmEmHZ7sSEa7zPz9dpUzz38aoa6uyNqjpROiCR4PXAAd9bBnjd3UzRLlkp0x%2Blq%2B2Cw8H9Q8Kk8ZmUUgYVMTEugHZyx2EjhwQv3JebtEM82EB8qYJ7xjZSBTQF%2BEJCplCY%2B4T%2B9cVmFsbQbiXuyZ9inUlXjvRql7zsTULkAWMaaJPm3MtSxgf9LymZbsWJBT%2BHKW6blNM%2FDC%2FIiiifFIInNCNB2TIPeEcYe1wnKVXYFjbsv2f5lN2TKWY4TtrMXVC8fwcrmCg3CneSuEiUONqHKLorKYGc7gC4cf0qPpzq3Eb0wyjcksc%2BR2i1T3O0x%2FP5Fs%2Fmd%2BKyyj7QpUuehpQiuCuuRs4HHrv9YWyy2VOA98USy0cJvmTpcmQH5iQKyHejKbywmpocXzKDo3x3Qd8skHDBOb7ixhH%2Fia2TbVJivyb5yNO6hO48ylGPOUL0xrdl3UEAfar9kvM%2FGEmtQSbP21EIl8faIkRQtFyo9GVsjVCD2hGwAr9QHRiDHDEDf%2FWelv1KdAmSWIpgxQ7w%2B9qYf69PTsyvj0psP33KwCFJNg9CuVM6MgR0DlP88uXCKqiaXh%2BWuQ%2F0Gj8e296AagMFTWaql%2FUbwRh5aKH0RjSiLehc21f3yx0XtNuaVy2BJov9Ky1uyZL6%2Fbg%3D%3D" class="glst_a" target="_blank">
+								<span class="glst_mw"><img src="https://s.pstatic.net/static/www/2014/blank.gif" lazyimg="https://s.pstatic.net/shopping.phinf/20180119_3/2c72f999-e168-4458-8a60-1c88a99a9c20.jpg"width="92" height="69" alt="꼼빠니아시즌OFF 놀라운~할인율!" class="glst_m" ></span>
+								<span class="glst_s">
+									<span class="glst_s1">꼼빠니아시즌OFF</span><!-- 컨텐츠 내용1 -->
+									<span class="glst_s2">놀라운~할인율!</span><!-- 컨텐츠 내용2 -->
+								</span>
+							</a><!--N=a:mal.b1item,r:1,i:511324-->
+						</li>							
+					<li class="glst_l">
+							<a href="http://adcr.shopping.naver.com/adcr.nhn?x=IVtJd5qew17tPQLUFH7avf%2F%2F%2Fw%3D%3Dsy3VsfAGblJDoH77B2G%2BHk%2FcGWi9yiCYDbWpYZKLapUW%2BTwbiBraYRnoCoy1CebpjFy7BVyvoUEza1ptQuI2bocIcMu0d27ebNhyiKAgYEpsX4OBlQ8oAGGTw3JAa20S1ajJ3Yb4D2aCBhTnJYN9Tn%2FajHIDb5HeLKcfee8LWXfXLx3MhsP7%2FyPfzqEqfsSvGYRMvW1VlwKWRZVsJLBrjO41oM4MUJ3Up%2FYQiHCwnyuhdOl%2BIuF6u%2Bc7PZhWXkXdOwAWuDRUNAcgBsHc2Z4wdS7wDcHcFYikEBn25SlgYGc%2FPt98%2FrI4anvsIB12iRuosLpF7dt%2FtFLYdFuWDpvzVhnUG5OxvrfwiUug3uQ%2Fil8F3UKsRXhphmTS2MDZflrPtM%2BPUpq4Ocno1VcdsAl0G0A8Bgtna7fxYDEi22GyjX2%2FK5DDvFLSl8WsKGQXtQ9GhfCL%2FfISDV%2Bo%2BG5f43votGVTEQFLfDIfCtdOmKiyeciSI56%2BlQYjvfA09haS5EDbp1DNa6Y72EDfkIiR2i3RIMrzKd%2FopbUwQVfQGoHT2osUsamhj9VRMunD42WcvDf7lx3x49lzgWmizMlREC%2BhEbQ58bhlo3InfFprOov4nJFcnvAxcFTUDl%2BwJnti5KulOd91RwE0BkSKNXJSjdzpcV4%2FgLA0CNtjOtSP%2Fx%2BFjol2WtgDaCcKbya%2FW9pSdk97wtmi%2BENvszMwGeOXeiinD2sgJ10TsJ4xPL3EBLrPfTq9c25pVH0m6LltjpcSa8odR" class="glst_a" target="_blank">
+								<span class="glst_mw"><img src="https://s.pstatic.net/static/www/2014/blank.gif" lazyimg="https://s.pstatic.net/shopping.phinf/20180124_7/0cbbcd93-48fe-49ae-aee0-32eea364cd80.jpg"width="92" height="69" alt="시즌OFF세일전 최대 92%할인!" class="glst_m" ></span>
+								<span class="glst_s">
+									<span class="glst_s1">시즌OFF세일전</span><!-- 컨텐츠 내용1 -->
+									<span class="glst_s2">최대 92%할인!</span><!-- 컨텐츠 내용2 -->
+								</span>
+							</a><!--N=a:mal.b1item,r:2,i:511325-->
+						</li>							
+					<li class="glst_l">
+							<a href="http://adcr.shopping.naver.com/adcr.nhn?x=0GTHmz8LBVPjcd2CbiKno%2F%2F%2F%2Fw%3D%3DsK4RFqI4doxYd3p%2F8tJHlbbfCbUQxXY2yDO3ixGa%2Foz7wR%2FxVyn5WUR8MAqJX8aelrHOHKtNhMzIHibml6QlTTeAf%2BAoQGMG7WD5pStDtMR%2FTVC7FVltyZPJlrtTSiDSqcusje4q8EnmEmHZ7sSEa7zPz9dpUzz38aoa6uyNqjpROiCR4PXAAd9bBnjd3UzRLT11vczWktwCtDiCYQr%2B4%2BWo%2FoCyYwL6L43EwP7HM9jyBaxKcz56U%2Bjfb4xF3Rv0ZTaS7cBoboMt6jK%2BnCqTFnnGCksDaeZmZiINVcXGaBRWGBjP1EI67YPa53nops%2BN%2FaN7ByI9O%2F0hA3Fkhz6Mu5zdGB6FDU0gHwV%2FqxJbZZNz%2Fwea9gJEze9MsAJp5cMIimRFQbjevAJujOTwgp5g1GoAC24vjLhuPMAuxbgIviwnUV203EqLxGX2NXGtl5iUuTfpfSTF9FkDHKCJ6QbUyU3ZVdfyB%2FlIJ6cyYpDqvvbi4uNZQu%2FfAs0AjIdQc2ev2erscRrUDrjnQ8MeCkR%2Bhda2z8ozpgVA2JmCXxBdE1PTaICEdW30mwx17q0cSZ1VC%2BUolCcvXbs9Y3GVTHrpitSl%2Fspo%2BqPQ54VhdqBrdSWBAETzxKKAYI5KWIvK3bqBI4gLXNn9RkBHBUx9jgqzXB4GhmDN%2FCAZLyNxTZ6RRtsI4KyD16junQjHqLceDpOSo41rvtYXRMfksNR8QLo6HAujs1e8xCRn2NVdXibwhgrCfy8evafzGMx7RI9d0Eme%2BhkFotIBV3xQrEZd4xJIN2Q%3D%3D" class="glst_a" target="_blank">
+								<span class="glst_mw"><img src="https://s.pstatic.net/static/www/2014/blank.gif" lazyimg="https://s.pstatic.net/shopping.phinf/20180131_5/ce2a8242-bc54-4188-b3d4-505bd48f2f22.jpg"width="92" height="69" alt="때깔진짜곱다~ 아이잗71%할인" class="glst_m" ></span>
+								<span class="glst_s">
+									<span class="glst_s1">때깔진짜곱다~</span><!-- 컨텐츠 내용1 -->
+									<span class="glst_s2">아이잗71%할인</span><!-- 컨텐츠 내용2 -->
+								</span>
+							</a><!--N=a:mal.b1item,r:3,i:511326-->
+						</li>							
+					</ul>
+			</div>
+			</div>
+			<!-- 트렌드몰 B형 Ctr -->
+			<div class="bx_mall">
+			<div class="malltit_w">
+				<!-- 상단 몰 정보 -->
+				<!-- 몰로고 -->
+					<h4 class="malltit">						
+						<a href="http://adcr.shopping.naver.com/adcr.nhn?x=PV70pe%2FbC2ndXRpsEg3%2B9v%2F%2F%2Fw%3D%3Ds3G8hxVPRgQeLDth79KJFWHKm3WCu7BrHUGrj0gZcjYoLBNol8j%2BuPJh8j0bd%2FbLRgHis4qX8FnbD8TDpfaXQuFyKsWhfbBS6iPX3x%2BdtHpYFezIMcbEUFVMgfPPIJr8KRhhaWfrTjIq0lPJ0oTvxkMn1ZFxZosXQPVcN71UW9jA0SboIKkxcha5m3UT1FUgBHgl4824RB%2B1SMlbEMfd%2BgDgMA%2Bme9dQBslgqTt5v9yAGcwRz4tzUShppJiLawJ9zleQAjGrmI9XxXys2SGUAkuUd7U28aWKGmB6SxnPoKJ%2FODBEnLHijOlNPBgM3SOiEHNlQlZtwR4ndfvIbioFPN4s1R9XxV%2BUNJLYj0%2BSlOR%2B3fuaYmzhdGl27CyGk%2FS65yQTQmyf%2FwfTnFlO5HK9OGb0N%2F%2BmmFS2zsm%2F5ipNo4%2BYqkBIfZKx4GcMXYuwRbw33dZyTs4wAcmjYO7mjlvQSO16CRC9mkS0JfXNntFLugK94ENZhKLM%2F0cNDxVp1tlhsgaKNXo%2FKfPwewpOdlOqc6A25UebROF7Wz%2FTQjKx76JM%3D" target="_blank">
+						<strong>데일리룩</strong>
+							</a><!--N=a:mal.b2malname,i:195623-->
+						</h4>				
+					<!-- 바로가기~ -->
+					<a href="http://adcr.shopping.naver.com/adcr.nhn?x=xBgmcl6sn840VJhAi4D1r%2F%2F%2F%2Fw%3D%3DsF0pwvWACYi%2BZBZ3Aq0f4niRW2JgodilL0vgWkny%2FHScMxfxv6GcuchJ4CxSJ%2BQhc%2Fcn0lTwXRadUAYGeq88PMsmz2FSoUJTh%2B36%2F617vpn1%2Fb2B%2BWux0P%2FOgVWPNVE%2FCFxYAr5J20JaHEfvlKAUjc5gev5z9Ke3fdEOpFRccj%2By52p5zlG%2BeKFSChp0mXacTMg%2B3WyaZ3nCR2Ff%2FBaYhG68909HKF2SsjCIuIzpfOXrU9B6KeTUfsIPfs3rsPXVxd0xHVhHcbpH7ZRu%2BBE4pajqi3CgzzHbTgI6dSLjdbs96Z5KiWpVWVnxhe1fgKGQI0HopWkYK139LG0ACP%2FM0%2FFJAGylEDYBj0J0JzAccp%2F%2BftXuoHVIIPwNgXVqUPNKnD208y6CKySHUm0XerXoVhX16W1snrk6VaSjoB7b0%2FxWndItE1ooMafBTFtG%2FxbESv%2FDwrJfwCctqHUO%2BNQv87QPLm4FTdVjkhWZp6daACJBdouK3AZyo04w1eDsY%2B1kktwUSkGKxFXc7VvfsHrbV2dnc9eEsKJzshOhuhK%2Bsnac%3D" class="mall_go" target="_blank">바로가기<span class="mg_arr"></span></a><!--N=a:mal.b2malgo,i:195623-->
+					</div>
+			<!--노출 영역 -->
+			<div class="glst_w">
+				<ul class="glst_u">
+					<!-- 쇼핑 컨텐츠 -->			
+					<li class="glst_l">
+							<a href="http://adcr.shopping.naver.com/adcr.nhn?x=vZPd928Izxj%2BUOn50CXzb%2F%2F%2F%2Fw%3D%3Ds8kIwe9%2BmubEZFstNwzVESHT570%2Ffqvq6z05sqf1tIqGLxABqddAhugK2A02JEyV32nYTGLe817PRR32caB2s8tPGI8ATyfMPQu3T61Jv8bNo5xCNsBefpvGQlAEJsm5%2FMlRRDWgxQniT0z52qzU2y51SbqbSjp56CCQMhHDe5JSdZkFoQaOP3iRz1C%2BYX0FkuNwYqpfHvCg8LcT2Iw68I9nbFUCWPzye6MrnBjbwMC0xEVQtIh8Rrh2RvJ%2B3kQRxZNmAIslyBvYjFeJzknSR%2Fm2MKwjiLXiKZxsPV42Fh3VZokzhNUKiMrmmivzkmweu2xUm3nW87gxlEoqG90snslJAGylEDYBj0J0JzAccp%2F%2BftXuoHVIIPwNgXVqUPNKn0m7yuxBiBaGx8nUI1QJKcX16W1snrk6VaSjoB7b0%2FxVPyo01Dfp5ADHR7iq83FplO7Mf1DX2TpD2teOx7AICbzquZ%2B2cA%2BWdYL%2FpZ4cDaU6QYKADH8C7EgNoSBNT1bZ1XXWlturHCt2Hgj%2B4iF%2FTUNqKtY%2FLyjveT0AiP0EEjv3wRmlWorTjzd0wJLIDp2PeV4D53zumafksYVb1Plyf2Q%3D%3D" class="glst_a" target="_blank">
+								<span class="glst_mw"><img src="https://s.pstatic.net/static/www/2014/blank.gif" lazyimg="https://s.pstatic.net/shopping.phinf/20180201_17/fe573467-ba77-48c5-a05b-2dbbdfa5dc9e.jpg"width="92" height="69" alt="아우터 all 세일 역시 역시는역시" class="glst_m" ></span>
+								<span class="glst_s">
+									<span class="glst_s1">아우터 all 세일</span><!-- 컨텐츠 내용1 -->
+									<span class="glst_s2">역시 역시는역시</span><!-- 컨텐츠 내용2 -->
+								</span>
+							</a><!--N=a:mal.b2item,r:1,i:511843-->
+						</li>							
+					<li class="glst_l">
+							<a href="http://adcr.shopping.naver.com/adcr.nhn?x=24eJq%2FFzKVG4OC67bCiY2v%2F%2F%2Fw%3D%3DshSuQ0C37OdAccSIqDTX2BY71Gvu71eMPUmUcTfnZPQ5fOIPN9Hg8vytA%2Fc6XHCYG2nYTGLe817PRR32caB2s8tPGI8ATyfMPQu3T61Jv8bNo5xCNsBefpvGQlAEJsm5%2FMlRRDWgxQniT0z52qzU2y51SbqbSjp56CCQMhHDe5JSdZkFoQaOP3iRz1C%2BYX0Fk6Xxc5THD7q1pE4wR1bCYxdPcJRfZGLBW4q14V5VAL%2BTyhzdz2wkOZ4Zd%2Bajgx3YdyBhhpgchzxI%2FuI4EH8oCAAF3T%2BD1ryiWIIu%2FnFuIO9GCyGh65eCBNWF32LI8F6yOoV78mxVOVsjND%2BCWEhgf5XcJeM%2FJtUpuq5pbBmLlwhR%2F6d2xBQrTV1r6cHCKF1Bu3HHnAa%2BdLNh05Y5O%2FSSeXnsYte%2FHMa9aSNbscvLsZ3VTO9mNI61k1pXXkc2%2Bcir8vQ3%2F6aYVLbOyb%2FmKk2jj5kk58Ibb77E7NlnaKtLOMo2MLpitRy%2FXorOj0j2HIO1iGod5TTOr%2BZV3tGPZlw6RpCw5R95U%2F%2B4J%2FIx7rQBio1zQpvPk4Ry%2BtQFYZVM4cfG%2F%2BHPQmdeUkpQelDbvHVDZORGzgeV%2Fyab9f%2BsW1CoxpScgrtYH%2BJgMoFcQUTJ3TqBC" class="glst_a" target="_blank">
+								<span class="glst_mw"><img src="https://s.pstatic.net/static/www/2014/blank.gif" lazyimg="https://s.pstatic.net/shopping.phinf/20180123_14/53d17629-676e-499e-9945-c05a742c2cbd.jpg"width="92" height="69" alt="당신의 일상에 선물이 될 옷" class="glst_m" ></span>
+								<span class="glst_s">
+									<span class="glst_s1">당신의 일상에</span><!-- 컨텐츠 내용1 -->
+									<span class="glst_s2">선물이 될 옷</span><!-- 컨텐츠 내용2 -->
+								</span>
+							</a><!--N=a:mal.b2item,r:2,i:511844-->
+						</li>							
+					<li class="glst_l">
+							<a href="http://adcr.shopping.naver.com/adcr.nhn?x=iZSk0xrhJ8WCXZ%2FMS5aVCv%2F%2F%2Fw%3D%3DssnN%2Fcgx8wI%2BCMkAymi4BuKA1ihG7go34I31b4z508HjnK9ME8Ldbv%2BVlIx8GtLkmFy7BVyvoUEza1ptQuI2boYFDqnRbLgKA3q9%2FTwwe023XOzfvQiI%2BvN2%2FuXC%2BlmhzcB3JuMSHSkd7%2BNdUKh%2FD6vajHIDb5HeLKcfee8LWXfXJBDxvFcwFP%2B08bMzqFphy56RPkzLQdA5CTi9i2%2B7haExEagyvz4wC%2FDqzOExO0rl5%2Fa4jrg1oHFSZADNpj5DEgsRMb6MXi1YpNs%2B8ZEsiQ1FyjU6d2aVcTI7ucRl5di0d3yATD2XOX5EoU%2FgBS2e06QxM8XkPHfIPc0Uf8T7G62RA0t11X5bXot4ro7TSglivzpHy%2FC5yA0RJgBB0wJDEpm3CHOypoZtpQ1YG1WbXOpQSX7JgIPgyenIjj6lqiqgRxBgyd6K4CTQ36vi%2F38U83C1KohI5BZQM2i%2FgV08tUY8rJMjc4EM8IBPxX4H6LPIV4Mw91G96jmD7EVFw5ft%2BtjOol4APt70053XFK735cq5Bqq6Kw7cXZQWm6uLEZjCWtgDaCcKbya%2FW9pSdk97w3UTp%2BtRfagqhfDaUCJPY72VeMh5uoKQ1OFjpss%2FESnZMA1Kvc%2FYYg8HGFjQHBCr1" class="glst_a" target="_blank">
+								<span class="glst_mw"><img src="https://s.pstatic.net/static/www/2014/blank.gif" lazyimg="https://s.pstatic.net/shopping.phinf/20180117_9/3178e473-1085-4d24-b2c5-2209c5aed557.jpg"width="92" height="69" alt="카디건원피스set 예쁘다는 말밖에" class="glst_m" ></span>
+								<span class="glst_s">
+									<span class="glst_s1">카디건원피스set</span><!-- 컨텐츠 내용1 -->
+									<span class="glst_s2">예쁘다는 말밖에</span><!-- 컨텐츠 내용2 -->
+								</span>
+							</a><!--N=a:mal.b2item,r:3,i:511845-->
+						</li>							
+					</ul>
+			</div>
+		</div>
+			<!-- 트렌드몰 B형 Btm -->
+			<div class="bx_mall">
+			<div class="malltit_w">
+				<!-- 상단 몰 정보 -->
+				<!-- 몰로고 -->
+					<h4 class="malltit">						
+						<a href="http://adcr.shopping.naver.com/adcr.nhn?x=%2F3BMb7w5It0yHAiHl3w3Av%2F%2F%2Fw%3D%3DskPxP3%2BfpstUEGuGk6GnFqMog7FsKtnS%2F6JN5%2BP0HZLPzHNG9F5j4bXb0mrLMj7hf2nYTGLe817PRR32caB2s8g5iAOunMMcxi19cK4VAcS0Nu%2BRZY%2B0GOjTMeNXAQy7J6oW%2BWvKymtSZxOhBqsc11Z1SbqbSjp56CCQMhHDe5JSXKJcyRKfMNquHeQ6kxe3fMg%2B3WyaZ3nCR2Ff%2FBaYhG68909HKF2SsjCIuIzpfOXrU9B6KeTUfsIPfs3rsPXVxd0xHVhHcbpH7ZRu%2BBE4pajqi3CgzzHbTgI6dSLjdbs96Z5KiWpVWVnxhe1fgKGQIrtwZxs0oubCwUL1xmfncI7cTmCUdQOuJ7kMQqaONU5%2F7sMHOm6X7NqWbdf1G8U%2BAQWUyE%2BfQGMEMelgQFaSgVMMsWZhp%2BRiqKkvYGbA%2B8fP%2FiOhaDT8dzHX1S3i%2Bm0K%2BrkGqrorDtxdlBabq4sRmMJa2ANoJwpvJr9b2lJ2T3vBoNUNTZXkqcaPu6q740PMakLHpIU7Xx17iS5HaQS2RMVcm9wGibVDrAUlEUzOocus%3D" target="_blank">
+						<strong>러브패리스</strong>
+							</a><!--N=a:mal.b3malname,i:19686-->
+						</h4>				
+					<!-- 바로가기~ -->
+					<a href="http://adcr.shopping.naver.com/adcr.nhn?x=%2F6BYqm6movTh3%2F698k2A6%2F%2F%2F%2Fw%3D%3DstzCBJZnERYge7uvYjMvdWpu5SH0inxSqs9GPsHdh940ObM9hhwE8oidNWhl2tpKdFy7BVyvoUEza1ptQuI2bofZYxJPt7Ab4R71LtrolRtu7kaXT3pc%2B4p1oloqw%2BuSca6fqGwxNrzauGgmMhMxd%2FvajHIDb5HeLKcfee8LWXfWkW%2BOWSlO2rWm6cGovmCJluNwYqpfHvCg8LcT2Iw68I3yOfhPHn5a%2FDac%2BaCPpXy0xEVQtIh8Rrh2RvJ%2B3kQRxZNmAIslyBvYjFeJzknSR%2Fm2MKwjiLXiKZxsPV42Fh3VZokzhNUKiMrmmivzkmweumHu8D6Ky7yqrK3ntXtp09g9rBMZYBw%2B%2FSZYUcXO3aUKU1FbPxFgi7St6r6i%2B%2BaGlLUKuzY21hL9k74j2JaejTfkUDwxSAKZmqFlxxFvKiLsnngY8zZ83nuI48BbpawJJBjYjalcP4CEI5ozCz9QeXpSHuQ5L3oTXy%2FfwRhaFmLu3W1%2FciZjbabOf29lz17rGPKlcVPVA7fsNluHxsCyJ3SLhUub9qx74NPdJNu1Qopo%3D" class="mall_go" target="_blank">바로가기<span class="mg_arr"></span></a><!--N=a:mal.b3malgo,i:19686-->
+					</div>
+			<!--노출 영역 -->
+			<div class="glst_w">
+				<ul class="glst_u">
+					<!-- 쇼핑 컨텐츠 -->			
+					<li class="glst_l">
+							<a href="http://adcr.shopping.naver.com/adcr.nhn?x=SRcHGCQJAnobwtYlJQ2Vvf%2F%2F%2Fw%3D%3DspoSkVPHT2NNWvmNnRuot9cJO4L%2BJyKaDew4aeG7FBOiGXp1B%2Fe7IJq0KJUcscqecmd5Dnhi1qLvXEgeXPdsVGPeucdTQwKxO6nxg3QfX0NZwTVHdXrjZCuToteFErCsQUAz19oSV6bMN%2B4MW%2FiSPfZgev5z9Ke3fdEOpFRccj%2ByXlgHcU7GDlO4tC8WK2yCJxvYQQDDzLzEDEKOVuAzT2i%2BUBGGsIHSjBnUQ7BoVqqQrIYq94U6mYIK7PYRrRS28Ubj0Mx2FjIu2X0jmY8UR3hAyolZk8lNc52z0%2BgRzd0fZ2xVAlj88nujK5wY28DAtMRFULSIfEa4dkbyft5EEcWTZgCLJcgb2IxXic5J0kf5tjCsI4i14imcbD1eNhYd1WaJM4TVCojK5por85JsHrrl9AByAO7uUK%2BMSQwFlpIupcQXkS6eicELVdczasWbFmWMiJPczzKUeNbED7HUmejgRTkiwtXDSkg0pR5LaSr%2FDLFmYafkYqipL2BmwPvHzb%2FN4YXgZMi1zC9ene087p31%2FXylp0%2FvStexB85xSHaCLoSxpcJJl9UBPneKH0ZEPdZyTs4wAcmjYO7mjlvQSO16CRC9mkS0JfXNntFLugK%2FjWmbwUA9m2a3bRnMwWuoGUiQevu22Ru9mZytLMTxf95gF%2Fxwh%2BKOEeqIAArKRNpE%3D" class="glst_a" target="_blank">
+								<span class="glst_mw"><img src="https://s.pstatic.net/static/www/2014/blank.gif" lazyimg="https://s.pstatic.net/shopping.phinf/20180125_11/0cee1aca-8cf0-4a9d-b110-3b93e176d201.jpg"width="92" height="69" alt="시선을 잡아끄는 매력이 있어" class="glst_m" ></span>
+								<span class="glst_s">
+									<span class="glst_s1">시선을 잡아끄는</span><!-- 컨텐츠 내용1 -->
+									<span class="glst_s2">매력이 있어</span><!-- 컨텐츠 내용2 -->
+								</span>
+							</a><!--N=a:mal.b3item,r:1,i:509691-->
+						</li>							
+					<li class="glst_l">
+							<a href="http://adcr.shopping.naver.com/adcr.nhn?x=fIPQ3WOjcKNadNawP%2BQ4JP%2F%2F%2Fw%3D%3Dsy524uyuV6sU44Dh9Z4s3xLADf9Cdv6SIWnoS%2FWLRrQYuAMh%2FmUadsao2BVPLhEROrHOHKtNhMzIHibml6QlTTTrJpJqlW5i4JFmHEEyAokWj6ZPT7t01A4%2Buq8l0m2ptaqa18lifDuxZt4n%2BxOdbPTPz9dpUzz38aoa6uyNqjpQcXP%2FaGqjePI4C44AX5ZQx0srUEpU0VhSRuQ1Laoq4WuoRkZNBDQvLa25QRK4RUxQbd8Ni8%2F4Q0RHPKUy92%2BlqUdSzuKCk3FR7d8zWDejLvrgn4vie9qjaVChEF7m%2FuO84DAPpnvXUAbJYKk7eb%2FcgBnMEc%2BLc1EoaaSYi2sCfc5XkAIxq5iPV8V8rNkhlAJLlHe1NvGlihpgeksZz6CifzgwRJyx4ozpTTwYDN0johEJqEjYAYxlBOKv0RYk6dKEyEEvOV5D1BLU20BhGKX8rVEBAmHV7SS398qWFWWgY%2BVnNmpBv8KFALNv7lL%2BeBfALLB61WGHOKafpwDPxNdcroZxBAMpozbfp%2BG3u61HcAKiCsIL%2FjfabDfQxjIUa3cbrCY0Wub8Hfvnntd%2B3cEzcXee8NXXN6ks%2FuVjUtV%2FcvtHCcqvo4kIrT0h4bSnd3lxLi69%2BHAXhcIZL5kfAmsSqGXWpJ3uI1oCMvti7XY2lRU0u%2B1ic26i4AChRJHRVM6Q%3D" class="glst_a" target="_blank">
+								<span class="glst_mw"><img src="https://s.pstatic.net/static/www/2014/blank.gif" lazyimg="https://s.pstatic.net/shopping.phinf/20180125_16/72a800c3-e77d-43e9-abcc-eaf516e79335.jpg"width="92" height="69" alt="나를 가꾸는~ 또 하나의 Style" class="glst_m" ></span>
+								<span class="glst_s">
+									<span class="glst_s1">나를 가꾸는~</span><!-- 컨텐츠 내용1 -->
+									<span class="glst_s2">또 하나의 Style</span><!-- 컨텐츠 내용2 -->
+								</span>
+							</a><!--N=a:mal.b3item,r:2,i:509692-->
+						</li>							
+					<li class="glst_l">
+							<a href="http://adcr.shopping.naver.com/adcr.nhn?x=sqMKVSKIWtZ9Z%2BGhe5fjSP%2F%2F%2Fw%3D%3Dsbb%2FpmPw5cm4BmPGs6%2FgRV2u7TfbAXJYwyaauBTKDi9egUJejy7tbcqajoIBQ8dwOrHOHKtNhMzIHibml6QlTTTrJpJqlW5i4JFmHEEyAokWj6ZPT7t01A4%2Buq8l0m2ptaqa18lifDuxZt4n%2BxOdbPTPz9dpUzz38aoa6uyNqjpQcXP%2FaGqjePI4C44AX5ZQx0srUEpU0VhSRuQ1Laoq4WuoRkZNBDQvLa25QRK4RUxSw%2FDqGY0uoFx4g3AlvEdh%2FUdSzuKCk3FR7d8zWDejLvo0fqZdwaI337xCxcdIIxSo4DAPpnvXUAbJYKk7eb%2FcgBnMEc%2BLc1EoaaSYi2sCfc5XkAIxq5iPV8V8rNkhlAJLlHe1NvGlihpgeksZz6CifzgwRJyx4ozpTTwYDN0johJ5RHFawhqq4i%2FE6LVVDm1EyEEvOV5D1BLU20BhGKX8rVEBAmHV7SS398qWFWWgY%2BVvWnUQO79OTLSwxV4%2B0JwULLB61WGHOKafpwDPxNdcr4ZoCx%2BlKY2DbJzGOZni4CU1SY0xlzKofKmVjqqjjcNqVm9YkryERXRUG%2Bs9jN3THQeN5WpwogLmTA%2BGy%2BCiveYhIlcFkoxA%2FyzKnbrCRbQk7LIIqV4uHi8imZzpaP%2BDsAJqbZpFxnJrEEQGEY8O6jw%3D%3D" class="glst_a" target="_blank">
+								<span class="glst_mw"><img src="https://s.pstatic.net/static/www/2014/blank.gif" lazyimg="https://s.pstatic.net/shopping.phinf/20180125_11/2fdd5fcb-9aac-4895-a127-0ccce04d6c45.jpg"width="92" height="69" alt="여성스러움이 물씬 느껴져" class="glst_m" ></span>
+								<span class="glst_s">
+									<span class="glst_s1">여성스러움이</span><!-- 컨텐츠 내용1 -->
+									<span class="glst_s2">물씬 느껴져</span><!-- 컨텐츠 내용2 -->
+								</span>
+							</a><!--N=a:mal.b3item,r:3,i:509693-->
+						</li>							
+					</ul>
+			</div>
+			</div>
+		</div>
+		<!-- 트렌드몰 B형 광고 -->
+
+	</div>
+	<!-- /shop_t2_slide -->
+
+	<div class="page">
+		<em><strong>1</strong>/13</em>
+		<a href="#" title="이전" class="prev" onclick="prevAdType('mallAd','contents',9,1);return false;"><span class="blind">이전 리스트</span><span class="page_icon"></span></a><!--N=a:mal.prev-->
+		<a href="#" title="다음" class="next" onclick="nextAdType('mallAd','contents',9,1);return false;"><span class="blind">다음 리스트</span><span class="page_icon"></span></a><!--N=a:mal.next-->
+	</div>
+
+</div>
+<!-- /shop_t2 --></div>
+				<!-- 하단 멘즈 영역 -->
+				</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="/js/lazyload.js"></script>
+<script type="text/javascript">window.onload=function(){setTimeout(function(){JsLazyLoad.load(['https://s.pstatic.net/imgshopping/static/sb/js/jindo/jindo.desktop.min.ns_v1.js?v=2018012418','https://s.pstatic.net/imgshopping/static/sb/js/jindo/jindo_mobile_component_flicking_v1.js?v=2018012418','https://s.pstatic.net/imgshopping/static/sb/js/jindo/jindo_component_transition_v1.js?v=2018012418','https://s.pstatic.net/imgshopping/static/sb/js/nclktagR0003_v1.js?v=2018012418','https://s.pstatic.net/imgshopping/static/sb/js/shopboxR0005_v1.js?v=2018012418']);ImgLazyLoad.load();},50)};</script>
+</html>
