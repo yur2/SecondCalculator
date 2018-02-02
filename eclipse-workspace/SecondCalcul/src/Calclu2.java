@@ -7,16 +7,13 @@ public class Calclu2 extends Calcul{
 
 	public static void main(String[] args) {
 		
-		System.out.println("사칙연산 놀이를 해볼까용?!");
+		 calculator.firstgo();
+
+		 System.out.println("연산기호를 입력하세욤!");
+		 num = scan.next();
+		    
 		
-		
-		System.out.println("수를 입력하세욤!");
-		first = scan.nextInt();
-		
-		System.out.println("연산기호를 입력하세욤!");
-	    num = scan.next();
-	    
-	    calculator.select();
+	     calculator.select();
 	    
 
 	}

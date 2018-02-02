@@ -2,12 +2,30 @@ import java.util.Scanner;
 
 public class Calcul {
 	
-	static int first;
-	static int second;
-	static String num;
+	static private int first;
+	static private int second;
+	protected static String num;
 	static int sum = 0;
 	static int n = 0;
 	static Scanner scan = new Scanner(System.in);
+	
+	
+	public int getFirst() {
+		return first;
+	}
+	
+	public void setFirst(int first) {
+		this.first = first ;
+	}
+	
+	
+	public int getSecond() {
+		return second;
+	}
+	
+	public void setSecond(int second) {
+		this.second = second;
+	}
 	
 	
 		
@@ -44,6 +62,7 @@ public class Calcul {
 		}
 	
     public void select() {
+ 
     	
     	switch(num){
     		case "+":
@@ -74,6 +93,17 @@ public class Calcul {
     	}
     }
 	
+    
+    public void firstgo() {
+    	
+       	 System.out.println("사칙연산 놀이를 해볼까용?!");
+    	
+    	     System.out.println("수를 입력하세욤!");
+		 first = scan.nextInt();
+		
+    }
+    
+    
      public void again() {
 
  		System.out.println("수를 입력하세욤!");
