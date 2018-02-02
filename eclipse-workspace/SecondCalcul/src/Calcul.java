@@ -104,6 +104,11 @@ public class Calcul {
     }
     
     
+    
+    
+    
+    
+    
      public void again() {
 
  		System.out.println("수를 입력하세욤!");
