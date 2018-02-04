@@ -74,40 +74,42 @@ public class MoreCalcul {
 			
 		}
 	
-    public void select() {
+
+	
+    public void select(String num) {
  
-    	
+   
     	switch(num){
     		case "+":
-    			again(scan.nextInt());
+    			again();
     			plus();
     			gogo(scan.next());
     			break;
     			
     		case "-":
-    			again(scan.nextInt());
+    			again();
     			minus();
     			gogo(scan.next());
     			break;
     			
     		case "*":
-    			again(scan.nextInt());
+    			again();
     			multi();
     			gogo(scan.next());
     			break;
     			
     		case "/":
-    			again(scan.nextInt());
+    			again();
     			divide();
     			gogo(scan.next());
     			break;
     			
     		
-    	}
+      	}
     }
 	
     
-    public void firstgo(int first) {
+    public void firstgo() {
     	
        	 System.out.println("사칙연산 놀이를 해볼까용?!");
     	
@@ -119,7 +121,7 @@ public class MoreCalcul {
     
     
     
-     public void again(int second) {
+     public void again() {
 
  		System.out.println("수를 입력하세욤!");
  		
@@ -130,14 +132,14 @@ public class MoreCalcul {
 
      public void gogo(String num) {
     	 
-    	 //System.out.println(sum);
+    	 
     	 System.out.println("이어 연산 원하시면 1 원치 않고 결과값을 보고싶으면 2");
     	 n = scan.nextInt();
     	 
     	 if(n == 1) {
     		 System.out.println("연산기호를 입력하세욤!");
     		    num = scan.next();
-    		    select();
+    		    select(scan.next());
     		 }
     		 
      else if(n == 2){
