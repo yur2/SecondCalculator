@@ -42,7 +42,9 @@ public class MoreCalcul {
 	
 	
 		
-	public void plus(){
+	public void plus(int second){
+		
+		
 		if(n != 1)
 	    sum	= first  + second;
 		else if(n == 1)
@@ -50,7 +52,7 @@ public class MoreCalcul {
 		
 	}
 	
-	public void minus(){
+	public void minus(int second){
 		if(n != 1)
 		    sum	= first  - second;
 			else if(n == 1)
@@ -58,7 +60,7 @@ public class MoreCalcul {
 			
 		}
 	
-	public void multi(){
+	public void multi(int second){
 		if(n != 1)
 		    sum	= first  * second;
 			else if(n == 1)
@@ -66,7 +68,8 @@ public class MoreCalcul {
 			
 		}
 	
-	public void divide(){
+	
+	public void divide(int second){
 		if(n != 1)
 		    sum	= first  / second;
 			else if(n == 1)
@@ -81,26 +84,30 @@ public class MoreCalcul {
    
     	switch(num){
     		case "+":
-    			again();
-    			plus();
+    			
+    			System.out.println("수를 입력하세욤!");
+    			plus(scan.nextInt());
     			gogo(scan.next());
     			break;
     			
     		case "-":
-    			again();
-    			minus();
+    			
+    			System.out.println("수를 입력하세욤!");
+    			minus(scan.nextInt());
     			gogo(scan.next());
     			break;
     			
     		case "*":
-    			again();
-    			multi();
+    			
+    			System.out.println("수를 입력하세욤!");
+    			multi(scan.nextInt());
     			gogo(scan.next());
     			break;
     			
     		case "/":
-    			again();
-    			divide();
+    			
+    			System.out.println("수를 입력하세욤!");
+    			divide(scan.nextInt());
     			gogo(scan.next());
     			break;
     			
@@ -118,17 +125,6 @@ public class MoreCalcul {
 		
     }
     
-    
-    
-    
-     public void again() {
-
- 		System.out.println("수를 입력하세욤!");
- 		
-		second = scan.nextInt();
-     }
-     
-     
 
      public void gogo(String num) {
     	 
@@ -137,8 +133,8 @@ public class MoreCalcul {
     	 n = scan.nextInt();
     	 
     	 if(n == 1) {
-    		 System.out.println("연산기호를 입력하세욤!");
-    		    num = scan.next();
+    		 
+    		    System.out.println("연산기호를 입력하세욤!");
     		    select(scan.next());
     		 }
     		 

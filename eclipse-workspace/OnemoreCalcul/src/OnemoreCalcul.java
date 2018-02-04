@@ -6,13 +6,9 @@ public class OnemoreCalcul extends MoreCalcul{
 		
 		MoreCalcul calculator = new MoreCalcul();
 		Scanner scan = new Scanner(System.in);
-		
-
+	
 		 calculator.firstgo();
-
 		 System.out.println("연산기호를 입력하세욤!");
-		    
-		
 	     calculator.select(scan.next());
 	}
 	
