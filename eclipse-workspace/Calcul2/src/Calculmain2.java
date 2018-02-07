@@ -11,7 +11,7 @@ public class Calculmain2 extends Calcul2 {
 		calcul.Start();
 		while (true) {
 			try {
-				calcul.Start2(scan.nextInt());
+				calcul.Operator(scan.nextInt());
 				break;
 			} catch (InputMismatchException ime) {
 				scan = new Scanner(System.in);

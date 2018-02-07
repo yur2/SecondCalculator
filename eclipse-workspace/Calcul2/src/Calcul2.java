@@ -15,7 +15,7 @@ public class Calcul2 {
 		System.out.println("    (단 종료하고 싶을시, 느낌표와 아무숫자를 눌러주세요)");
 	}
 
-	public void Start2(int sum) {
+	public void Operator(int sum) {
 		while (true) {
 
 			while (true) {
