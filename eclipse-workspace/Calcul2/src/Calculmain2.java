@@ -7,20 +7,11 @@ public class Calculmain2 extends Calcul2 {
 
 		Calcul2 calcul = new Calcul2();
 		Scanner scan = new Scanner(System.in);
-		
-		calcul.Start();
-		while (true) {
-			try {
-				calcul.Operator(scan.nextInt());
-				break;
-			} catch (InputMismatchException ime) {
-				scan = new Scanner(System.in);
-				System.out.println("예외발생");
-				System.out.println("숫자 똑바로 넣으세요");
 
-			}
-		}
-		
+		calcul.Start();
+
+		calcul.Operator(scan.nextInt());
+
 	}
 
 }
