@@ -29,6 +29,7 @@ public class Calcul2 {
 				sum = scan.nextInt();
 			}
 			}
+			//
 			operator = scan.next();
 
 			while (true) {

@@ -10,7 +10,7 @@ public class Calculmain2 extends Calcul2 {
 		calcul.Start();
 
 		calcul.Operator(scan.nextInt());
-
+//
 	}
 
 }
