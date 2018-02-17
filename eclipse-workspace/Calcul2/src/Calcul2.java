@@ -83,14 +83,14 @@ public class Calcul2 {
 					char check1;
 
 					if (value.equals("")) {
-						// 문자열이 공백인지 확인
+						
 						System.out.println("잘못넣었소 숫자를 넣어주세요!");
 					value = scan.next();
 					} else {
 						for (int i = 0; i < value.length(); i++) {
 							check1 = value.charAt(i);
 							if (check1 < 48 || check1 > 58) {
-								// 해당 char값이 숫자가 아닐 경우
+							
 								System.out.println("잘못넣었소 숫자를 넣어주세요!");
 								value = scan.next();
                             }
