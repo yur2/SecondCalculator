@@ -4,7 +4,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#fff064"
+        android:background="@drawable/teduri2"
         tools:context="com.example.yurina.android_calculator.MainActivity_AndCal">
 
 

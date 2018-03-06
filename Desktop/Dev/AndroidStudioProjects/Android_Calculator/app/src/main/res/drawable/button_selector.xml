@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:state_pressed="true" android:drawable="@drawable/bg2"/>
-    <item android:state_focused="true" android:drawable="@drawable/bg2"/>
-    <item android:state_pressed="true" android:drawable="@drawable/bg2"/>
-    <item android:drawable="@drawable/peach"/>
+    <!--<item android:state_pressed="true" android:drawable="@drawable/bg2"/>-->
+    <!--<item android:state_focused="true" android:drawable="@drawable/bg2"/>-->
+    <!--<item android:state_pressed="true" android:drawable="@drawable/bg2"/>-->
+    <!--<item android:drawable="@drawable/peach"/>-->
+
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#8cd" />
+
+
+            <stroke android:width="2dp" android:color="@color/colorPrimaryDark" />
+
+
+            <corners android:bottomLeftRadius="7dp" android:bottomRightRadius="7dp" android:topLeftRadius="7dp" android:topRightRadius="7dp" />
+
+            <gradient android:startColor="#8cd" android:type="linear" />
+        </shape>
+    </item>
+
+    <item android:state_pressed="false">
+        <shape>
+            <solid android:color="#ad82"/>
+            <stroke android:color="@color/colorPrimaryDark" android:width="2dp"/>
+            <corners android:bottomLeftRadius="7dp" android:bottomRightRadius="7dp" android:topLeftRadius="7dp" android:topRightRadius="7dp" />
+
+        </shape>
+    </item>
 
 </selector>
