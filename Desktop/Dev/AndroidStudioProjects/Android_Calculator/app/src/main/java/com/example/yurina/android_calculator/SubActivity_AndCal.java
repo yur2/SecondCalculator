@@ -21,13 +21,18 @@ public class SubActivity_AndCal extends AppCompatActivity {
     private TextView text2;
 
 
-    int a =0;
+    int a = 0;
     int c = 0;
     String b = "";
 
-    String temp = "";
+
     boolean checkOperator = false;
+
+    String temp = "";
     String temp2 = "";
+    int d = 0;
+    String e = "";
+    String f = "";
 
 
     @Override
@@ -63,36 +68,33 @@ public class SubActivity_AndCal extends AppCompatActivity {
 
 
                     case R.id.onebtn:
-
                         number("1");
                         break;
                     case R.id.twobtn:
-
                         number("2");
                         break;
                     case R.id.threebtn:
 
-                        number("#");
+                        number("3");
                         break;
                     case R.id.fourbtn:
 
                         number("4");
                         break;
                     case R.id.fivebtn:
-
-                          number("5");
+                        number("5");
                         break;
                     case R.id.sixbtn:
 
-                         number("6");
+                        number("6");
                         break;
                     case R.id.sevenbtn:
 
-                          number("7");
+                        number("7");
                         break;
                     case R.id.eightbtn:
 
-                         number("8");
+                        number("8");
                         break;
                     case R.id.ninebtn:
 
@@ -127,7 +129,7 @@ public class SubActivity_AndCal extends AppCompatActivity {
 
                     case R.id.resultbtn:
 
-                        array1();
+                        text2.setText("= " + a);
 
                         break;
 
@@ -146,6 +148,7 @@ public class SubActivity_AndCal extends AppCompatActivity {
 
                 text.setText("");
                 text2.setText("");
+                a = 0;
 
                 checkOperator = false;
             }
@@ -153,36 +156,82 @@ public class SubActivity_AndCal extends AppCompatActivity {
             public void number(String num) {
 
                 if (checkOperator == false) {
-                    temp = num;
-                    text.setText(text.getText().toString() + temp + " ");
+
+                    e = num;
+                    temp = text.getText().toString() + num;
+
+                    text.setText(temp + "");
+
 
                 } else {
+                    f = num;
+                    temp2 = text.getText().toString() + num;
+
+                    text.setText(temp2 + "");
 
 
-                    temp2 = num;
-                    text.setText(text.getText().toString() + temp2 + " ");
-//                    int a = Integer.parseInt(temp) + Integer.parseInt(temp2);
-//                    text2.setText(a + " ");
+                    if (b.equals("+")) {
+                        if (a == 0) {
+                            a = Integer.parseInt(e) + Integer.parseInt(f);
+
+                        } else {
+                            a = a + Integer.parseInt(f);
+                        }
+                    } else if (b.equals("-")) {
+                        if (a == 0) {
+                            a = Integer.parseInt(e) - Integer.parseInt(f);
+
+                        } else {
+                            a = a - Integer.parseInt(f);
+                        }
+                    } else if (b.equals("*")) {
+                        if (a == 0) {
+                            a = Integer.parseInt(e) * Integer.parseInt(f);
+
+                        } else {
+                            a = a * Integer.parseInt(f);
+                        }
+                    } else if (b.equals("/")) {
+                        if (a == 0) {
+
+                            try {
+                                a = Integer.parseInt(e) / Integer.parseInt(f);
+                            } catch (Exception r) {
+                                if (Integer.parseInt(f) == 0) {
+                                    text2.setText("= 해가 없음");
+
+                                }
+                            }
+                        }
+
+                    } else {
+                        try {
+                            a = a / Integer.parseInt(f);
+                        } catch (Exception r) {
+                            if (Integer.parseInt(f) == 0) {
+                                text2.setText("= 해가 없음");
+                            }}
+
+                        }
+                    }
 
                 }
 
 
-                Log.d("Number ============= ", temp);
-            }
+                //Log.d("Number ============= ", temp);
+
 
             public void operate1(String ope1) {
 
                 b = ope1;
 
 
-                text.setText(text.getText().toString() + b + " ");
+                text.setText(text.getText().toString() + " " + b + " ");
 
                 if (b.equals("+") || b.equals("-") || b.equals("*") || b.equals("/")) {
                     checkOperator = true;
                 }
             }
-
-
 
 
         };
@@ -205,114 +254,11 @@ public class SubActivity_AndCal extends AppCompatActivity {
         resultbtn.setOnClickListener(clickListener);
 
 
-    }
-
-    public void array1() {
-        int c = 0;
-        int a = 0;
-
-        switch (b) {
-
-
-            case "+": {
-                if( c == 0){
-
-
-                a = Integer.parseInt(temp) + Integer.parseInt(temp2);
-                text2.setText(a + " ");
-                c = 1;
-                break;
                 }
 
-                else if(c ==1){
-                    a = a + Integer.parseInt(temp2);
-                    break;
-                }
-            }
-            case "-": {
-                text2.setText(Integer.parseInt(temp) - Integer.parseInt(temp2) + "");
-            }
-            case "*": {
-                text2.setText(Integer.parseInt(temp) * Integer.parseInt(temp2) + "");
-            }
-            case "/": {
-                text2.setText(Integer.parseInt(temp) / Integer.parseInt(temp2) + "");
-            }
-
-
-        }
-
-
-//                String split1[] = a.split(" ");
-//                ArrayList<String> array = new ArrayList<>();
-//
-//                for (int i = 0; i > split1.length; i++) {
-//                    array.add(split1[i]);
-//                }
-//
-//                for (int i = 0; i > array.size(); i++) {
-//
-//
-//                    if (array.get(i).equals("+")) {
-//
-//                        if (result == 0) {
-//                            result = Integer.parseInt(array.get(i - 1)) + Integer.parseInt(array.get(i + 1));
-//                            break;
-//                        } else
-//                            result = result + Integer.parseInt(array.get(i + 1));
-//                        break;
-//
-//                    }
-//
-//
-//                    if (array.get(i).equals("-")) {
-//                        if (result == 0) {
-//
-//                            result = Integer.parseInt(array.get(i - 1)) - Integer.parseInt(array.get(i + 1));
-//
-//                            break;
-//                        } else
-//                            result = result - Integer.parseInt(array.get(i + 1));
-//                        break;
-//                    }
-//
-//
-//                    if (array.get(i).equals("*")) {
-//                        if (result == 0) {
-//                            result = Integer.parseInt(array.get(i - 1)) * Integer.parseInt(array.get(i + 1));
-//
-//                            break;
-//                        } else
-//                            result = result * Integer.parseInt(array.get(i + 1));
-//                        break;
-//                    }
-//
-//                    if (array.get(i).equals("/")) {
-//                        if (result == 0) {
-//
-//                            try {
-//                                result = Integer.parseInt(array.get(i - 1)) / Integer.parseInt(array.get(i + 1));
-//                            } catch (Exception e) {
-//                                if (array.get(i + 1).equals(0)) {
-//                                    text2.setText("= 해가 없음");
-//                                    break;
-//
-//                                } else
-//                                    result = result / Integer.parseInt(array.get(i + 1));
-//                                break;
-//                            }
-//                        }
-//
-//
-//                    }
-//
-//
-//            }
-//
-//
-//                text2.setText("="+text2.getText().
-//
-//            toString() +result);
 
     }
-}
+
+
+
+
