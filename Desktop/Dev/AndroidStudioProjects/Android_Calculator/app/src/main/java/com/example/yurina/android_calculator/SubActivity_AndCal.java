@@ -33,6 +33,7 @@ public class SubActivity_AndCal extends AppCompatActivity {
     int d = 0;
     String e = "";
     String f = "";
+    int i = 0;
 
 
     @Override
@@ -149,6 +150,7 @@ public class SubActivity_AndCal extends AppCompatActivity {
                 text.setText("");
                 text2.setText("");
                 a = 0;
+                i = 0;
 
                 checkOperator = false;
             }
@@ -156,69 +158,170 @@ public class SubActivity_AndCal extends AppCompatActivity {
             public void number(String num) {
 
                 if (checkOperator == false) {
+                    // for (int i = 0; i > 10; i++) {
 
-                    e = num;
-                    temp = text.getText().toString() + num;
+                    if (i == 0) {
+                        temp = num;
+                        text.setText(text.getText().toString() + num + "");
+                        text2.setText(temp);
+                        i++;
+                        //  break;
 
-                    text.setText(temp + "");
+                    } else if (i == 1) {
+                        text.setText(text.getText().toString() + num + "");
+                        temp = temp + num;
+                        text2.setText(temp);
+                        i++;
+                    } else if (i == 2) {
+                        text.setText(text.getText().toString() + num);
+                        temp = temp + num;
+                        text2.setText(temp);
+                        i++;
 
+                    } else if (i == 3) {
+                        text.setText(text.getText().toString() + num);
+                        temp = temp + num;
+                        text2.setText(temp);
+                        i++;
 
-                } else {
-                    f = num;
-                    temp2 = text.getText().toString() + num;
+                    } else if (i == 4) {
+                        text.setText(text.getText().toString() + num);
+                        temp = temp + num;
+                        text2.setText(temp);
+                        i++;
 
-                    text.setText(temp2 + "");
+                    } else if (i == 5) {
+                        text.setText(text.getText().toString() + num);
+                        temp = temp + num;
+                        text2.setText(temp);
+                        i++;
 
+                    } else if (i == 6) {
+                        text.setText(text.getText().toString() + num);
+                        temp = temp + num;
+                        text2.setText(temp);
+                        i++;
 
-                    if (b.equals("+")) {
-                        if (a == 0) {
-                            a = Integer.parseInt(e) + Integer.parseInt(f);
+                    } else if (i == 7) {
+                        text.setText(text.getText().toString() + num);
+                        temp = temp + num;
+                        text2.setText(temp);
+                        i++;
+                    } }
+                    else
 
-                        } else {
-                            a = a + Integer.parseInt(f);
+                    {
+
+                        if (i == 0) {
+                            temp2 = num;
+                            text.setText(text.getText().toString() + num + "");
+                            text2.setText(temp2);
+                            i++;
+                            // operate2();
+                            //  break;
+
+                        } else if (i == 1) {
+                            text.setText(text.getText().toString() + num);
+                            temp2 = temp2 + num;
+                            text2.setText(temp2);
+                            i++;
+                            //    break;
+
+                            //operate2();
+                        } else if (i == 2) {
+                            text.setText(text.getText().toString() + num);
+                            temp2 = temp2 + num;
+                            text2.setText(temp2);
+                            i++;
+                            operate2();
+
+                        } else if (i == 3) {
+                            text.setText(text.getText().toString() + num);
+                            temp2 = temp2 + num;
+                            text2.setText(temp2);
+                            i++;
+
+                        } else if (i == 4) {
+                            text.setText(text.getText().toString() + num);
+                            temp2 = temp2 + num;
+                            text2.setText(temp2);
+                            i++;
+
                         }
-                    } else if (b.equals("-")) {
-                        if (a == 0) {
-                            a = Integer.parseInt(e) - Integer.parseInt(f);
+                        else if (i == 5) {
+                            text.setText(text.getText().toString() + num);
+                            temp = temp + num;
+                            text2.setText(temp);
+                            i++;
 
-                        } else {
-                            a = a - Integer.parseInt(f);
+                        } else if (i == 6) {
+                            text.setText(text.getText().toString() + num);
+                            temp = temp + num;
+                            text2.setText(temp);
+                            i++;
+
+                        } else if (i == 7) {
+                            text.setText(text.getText().toString() + num);
+                            temp = temp + num;
+                            text2.setText(temp);
+                            i++;
                         }
-                    } else if (b.equals("*")) {
-                        if (a == 0) {
-                            a = Integer.parseInt(e) * Integer.parseInt(f);
 
-                        } else {
-                            a = a * Integer.parseInt(f);
-                        }
-                    } else if (b.equals("/")) {
-                        if (a == 0) {
 
-                            try {
-                                a = Integer.parseInt(e) / Integer.parseInt(f);
-                            } catch (Exception r) {
-                                if (Integer.parseInt(f) == 0) {
-                                    text2.setText("= 해가 없음");
+                    }
+                }
 
-                                }
-                            }
-                        }
+
+            public void operate2() {
+
+                if (b.equals("+")) {
+                    if (a == 0) {
+                        a = Integer.parseInt(temp) + Integer.parseInt(temp2);
 
                     } else {
-                        try {
-                            a = a / Integer.parseInt(f);
-                        } catch (Exception r) {
-                            if (Integer.parseInt(f) == 0) {
-                                text2.setText("= 해가 없음");
-                            }}
+                        a = a + Integer.parseInt(temp2);
+                    }
+                } else if (b.equals("-")) {
+                    if (a == 0) {
+                        a = Integer.parseInt(temp) - Integer.parseInt(temp2);
 
+                    } else {
+                        a = a - Integer.parseInt(temp2);
+                    }
+                } else if (b.equals("*")) {
+                    if (a == 0) {
+                        a = Integer.parseInt(temp) * Integer.parseInt(temp2);
+
+                    } else {
+                        a = a * Integer.parseInt(temp2);
+                    }
+                } else if (b.equals("/")) {
+                    if (a == 0) {
+
+                        try {
+                            a = Integer.parseInt(temp) / Integer.parseInt(temp2);
+                        } catch (Exception r) {
+                            if (Integer.parseInt(temp2) == 0) {
+                                text2.setText("= 해가 없음");
+
+                            }
+                        }
+                    }
+
+                } else {
+                    try {
+                        a = a / Integer.parseInt(temp2);
+                    } catch (Exception r) {
+                        if (Integer.parseInt(temp2) == 0) {
+                            text2.setText("= 해가 없음");
                         }
                     }
 
                 }
 
+            }
 
-                //Log.d("Number ============= ", temp);
+            //Log.d("Number ============= ", temp);
 
 
             public void operate1(String ope1) {
@@ -230,6 +333,7 @@ public class SubActivity_AndCal extends AppCompatActivity {
 
                 if (b.equals("+") || b.equals("-") || b.equals("*") || b.equals("/")) {
                     checkOperator = true;
+                    i = 0;
                 }
             }
 
@@ -254,10 +358,10 @@ public class SubActivity_AndCal extends AppCompatActivity {
         resultbtn.setOnClickListener(clickListener);
 
 
-                }
-
-
     }
+
+
+}
 
 
 
