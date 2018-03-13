@@ -23,7 +23,7 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
 
 
     int a = 0;
-
+    int b = 0;
 
     boolean checkOperator = false;
 
@@ -33,6 +33,7 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
     String num_left = "";
     String result = "";
     String operator = "";
+    String finalsum = "";
 
 
     @Override
@@ -131,33 +132,23 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
 
             case R.id.plusbtn:
                 operate1("+");
-                // operate2();
-
                 break;
 
 
             case R.id.minusbtn:
                 operate1("-");
-                //operate2();
-
                 break;
 
             case R.id.multibtn:
                 operate1("*");
-                //operate2();
-
-
                 break;
 
             case R.id.dividebtn:
                 operate1("/");
-                // operate2();
-
                 break;
 
             case R.id.resultbtn:
-                operate2();
-
+                text2.setText(finalsum);
                 break;
 
             case R.id.stopbtn:
@@ -175,9 +166,9 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
 
             if (i == 0) {
                 processNumber(i);
+
             } else if (i == 1) {
                 processNumber(i);
-
 
             } else if (i == 2) {
                 processNumber(i);
@@ -195,6 +186,12 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
                 processNumber(i);
 
             } else if (i == 7) {
+                processNumber(i);
+
+            } else if (i == 8) {
+                processNumber(i);
+
+            } else if (i == 9) {
                 processNumber(i);
 
             }
@@ -222,11 +219,18 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
             } else if (i == 6) {
                 processNumber(i);
 
-
             } else if (i == 7) {
                 processNumber(i);
 
+            } else if (i == 8) {
+                processNumber(i);
+
+            } else if (i == 9) {
+                processNumber(i);
+
             }
+
+
         }
     }
 
@@ -237,38 +241,88 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
             num_left = num_left + i + "";
             result = result + temp;
             text.setText(result);
+
         } else {
             temp2 = i + "";
             result = result + temp2;
-            num_right = num_right + i + "";
+            num_right = i + "";
             text.setText(result);
+
+            operate2();
+
+
         }
 
     }
 
     public void operate2() {
 
-        if (operator.equals("+")) {
-            result = Integer.parseInt(num_left) + Integer.parseInt(num_right) + "";
-            text2.setText(result);
+        if (b == 0) {
 
-        } else if (operator.equals("-")) {
-            result = Integer.parseInt(num_left) - Integer.parseInt(num_right) + "";
-            text2.setText(result);
 
-        } else if (operator.equals("*")) {
-            result = Integer.parseInt(num_left) * Integer.parseInt(num_right) + "";
-            text2.setText(result);
+            if (operator.equals("+")) {
+                finalsum = Integer.parseInt(num_left) + Integer.parseInt(num_right) + "";
+                //text2.setText(finalsum);
 
-        } else if (operator.equals("/")) {
-            result = Integer.parseInt(num_left) / Integer.parseInt(num_right) + "";
-            text2.setText(result);
+                // finalsum =result;
+
+            } else if (operator.equals("-")) {
+                finalsum = Integer.parseInt(num_left) - Integer.parseInt(num_right) + "";
+
+
+            } else if (operator.equals("*")) {
+                finalsum = Integer.parseInt(num_left) * Integer.parseInt(num_right) + "";
+
+            } else if (operator.equals("/")) {
+                finalsum = Integer.parseInt(num_left) / Integer.parseInt(num_right) + "";
+
+            }
+            b++;
+            num_right ="";
 
         } else {
+            if (operator.equals("+")) {
+
+                finalsum = Integer.parseInt(finalsum) + Integer.parseInt(num_right) + "";
+                //text2.setText(num_right);
+
+
+            } else if (operator.equals("-")) {
+                finalsum = Integer.parseInt(finalsum) - Integer.parseInt(num_right) + "";
+
+
+            } else if (operator.equals("*")) {
+                finalsum = (Integer.parseInt(finalsum) * Integer.parseInt(num_right)) + "";
+
+
+            } else if (operator.equals("/")) {
+                finalsum = Integer.parseInt(finalsum) / Integer.parseInt(num_right) + "";
+
+
+            }
+            num_right ="";
 
 
         }
 
+//        if (operator.equals("+")) {
+//
+//            result = Integer.parseInt(num_left) + Integer.parseInt(num_right) + "";
+//            text2.setText(result);
+//
+//        } else if (operator.equals("-")) {
+//            result = Integer.parseInt(num_left) - Integer.parseInt(num_right) + "";
+//            text2.setText(result);
+//
+//        } else if (operator.equals("*")) {
+//            result = Integer.parseInt(num_left) * Integer.parseInt(num_right) + "";
+//            text2.setText(result);
+//
+//        } else if (operator.equals("/")) {
+//            result = Integer.parseInt(num_left) / Integer.parseInt(num_right) + "";
+//            text2.setText(result);
+//
+//        }
     }
 
     public void ClearAll() {
@@ -279,6 +333,7 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
         result = "";
         num_left = "";
         num_right = "";
+        finalsum = "";
 
         a = 0;
 
@@ -286,7 +341,7 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
 
 
         text.setText(result);
-        text2.setText(result);
+        text2.setText(finalsum);
     }
 
     public void operate1(String ope1) {
@@ -297,9 +352,6 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
             operator = ope1;
             result = result + operator;
             text.setText(result);
-
-        } else {
-
 
         }
 
