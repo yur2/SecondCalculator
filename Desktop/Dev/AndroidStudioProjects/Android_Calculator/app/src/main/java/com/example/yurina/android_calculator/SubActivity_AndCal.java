@@ -21,9 +21,7 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
     private TextView text;
     private TextView text2;
 
-
-    int a = 0;
-    int b = 0;
+    int distinction =0;
 
     boolean checkOperator = false;
 
@@ -115,7 +113,7 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
                 break;
             case R.id.sixbtn:
                 number(6);
-                break;
+                break;s
             case R.id.sevenbtn:
                 number(7);
                 break;
@@ -131,24 +129,67 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
                 break;
 
             case R.id.plusbtn:
-                operate1("+");
+                Operate1("+");
                 break;
 
 
             case R.id.minusbtn:
-                operate1("-");
+                Operate1("-");
                 break;
 
             case R.id.multibtn:
-                operate1("*");
+                Operate1("*");
                 break;
 
             case R.id.dividebtn:
-                operate1("/");
+                Operate1("/");
                 break;
 
             case R.id.resultbtn:
-                text2.setText(finalsum);
+
+                result = result + " " + "=";
+                text.setText(result);
+
+                String date[] = result.split(" ");
+                for (int i = 0; i > date.length; i++) {
+                    if (date[i].equals(" ")) {
+                        text2.setText(result);
+                    }
+//                        if (num_right.equals("")) {
+//                            break;
+//                        } else {
+//                            operate2();
+//                            break;
+//                        }
+//                    } else {
+//                        break;
+//                    }
+
+                }
+               // text2.setText(finalsum);
+
+//                for (int i = 0; i > result.length(); i++) {
+
+//                    if (" ".equals(result.charAt(i))) {
+//                        if (num_right.equals("")) {
+//
+//                        } else {
+//                            operate2();
+//
+//                        }
+//
+//                    } else {
+//
+//                    }
+//
+//
+//                }
+
+                //operate2();
+
+                // text2.setText(finalsum);
+
+
                 break;
 
             case R.id.stopbtn:
@@ -244,27 +285,23 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
 
         } else {
             temp2 = i + "";
+            num_right = num_right + i + "";
             result = result + temp2;
-            num_right = i + "";
             text.setText(result);
-
-            operate2();
-
 
         }
 
     }
 
-    public void operate2() {
 
-        if (b == 0) {
+    public void Operate2() {
+
+        if (distinction== 0) {
 
 
             if (operator.equals("+")) {
                 finalsum = Integer.parseInt(num_left) + Integer.parseInt(num_right) + "";
-                //text2.setText(finalsum);
 
-                // finalsum =result;
 
             } else if (operator.equals("-")) {
                 finalsum = Integer.parseInt(num_left) - Integer.parseInt(num_right) + "";
@@ -277,14 +314,12 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
                 finalsum = Integer.parseInt(num_left) / Integer.parseInt(num_right) + "";
 
             }
-            b++;
-            num_right ="";
+            distinction++;
+            num_right = "";
 
         } else {
             if (operator.equals("+")) {
-
                 finalsum = Integer.parseInt(finalsum) + Integer.parseInt(num_right) + "";
-                //text2.setText(num_right);
 
 
             } else if (operator.equals("-")) {
@@ -300,29 +335,12 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
 
 
             }
-            num_right ="";
+            num_right = "";
 
 
         }
 
-//        if (operator.equals("+")) {
-//
-//            result = Integer.parseInt(num_left) + Integer.parseInt(num_right) + "";
-//            text2.setText(result);
-//
-//        } else if (operator.equals("-")) {
-//            result = Integer.parseInt(num_left) - Integer.parseInt(num_right) + "";
-//            text2.setText(result);
-//
-//        } else if (operator.equals("*")) {
-//            result = Integer.parseInt(num_left) * Integer.parseInt(num_right) + "";
-//            text2.setText(result);
-//
-//        } else if (operator.equals("/")) {
-//            result = Integer.parseInt(num_left) / Integer.parseInt(num_right) + "";
-//            text2.setText(result);
-//
-//        }
+
     }
 
     public void ClearAll() {
@@ -335,31 +353,26 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
         num_right = "";
         finalsum = "";
 
-        a = 0;
+
+        distinction = 0;
 
         checkOperator = false;
-
 
         text.setText(result);
         text2.setText(finalsum);
     }
 
-    public void operate1(String ope1) {
-
+    public void Operate1(String ope1) {
 
         if (ope1.equals("+") || ope1.equals("-") || ope1.equals("*") || ope1.equals("/")) {
             checkOperator = true;
             operator = ope1;
-            result = result + operator;
+            result = result + " " + operator + " ";
             text.setText(result);
 
         }
 
-
     }
 
+
 }
-
-
-
-
