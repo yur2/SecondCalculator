@@ -113,7 +113,7 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
                 break;
             case R.id.sixbtn:
                 number(6);
-                break;s
+                break;
             case R.id.sevenbtn:
                 number(7);
                 break;
@@ -150,9 +150,9 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
                 result = result + " " + "=";
                 text.setText(result);
 
-                String date[] = result.split(" ");
-                for (int i = 0; i > date.length; i++) {
-                    if (date[i].equals(" ")) {
+                String save[] = result.split(" ");
+                for (int i = 0; i > save.length; i++) {
+                    if (save[i].equals(" ")) {
                         text2.setText(result);
                     }
 //                        if (num_right.equals("")) {
