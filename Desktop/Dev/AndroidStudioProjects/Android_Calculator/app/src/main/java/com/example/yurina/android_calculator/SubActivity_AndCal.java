@@ -150,19 +150,22 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
                 result = result + " " + "=";
                 text.setText(result);
 
-                String save[] = result.split(" ");
-                for (int i = 0; i > save.length; i++) {
+                String save[] = result.split("");
 
-                    if (save[i].equals("+") || save[i].equals("-") || save[i].equals("*") || save[i].equals("/")) {
+
+                for (int i = 0; i < save.length; i++) {
+
+
+
+                    if ("+".equals(save[i]) || "-".equals(save[i]) || "*".equals(save[i]) || "/".equals(save[i])) {
+
                         Operate2();
-                        break;
-                    } else {
-                        break;
+
 
                     }
 
                 }
-                //  text2.setText(finalsum);
+                 text2.setText(finalsum);
 
 //                for (int i = 0; i > result.length(); i++) {
 
@@ -275,13 +278,13 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
 
         if (checkOperator == false) {
             temp = i + "";
-            num_left = num_left + i + "";
+            num_left = num_left+ i + "";
             result = result + temp;
             text.setText(result);
 
         } else {
             temp2 = i + "";
-            num_right = num_right + i + "";
+            num_right = num_right+ i + "";
             result = result + temp2;
             text.setText(result);
 
@@ -310,7 +313,7 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
 
             }
             distinction++;
-            num_right = "";
+            num_right =0+ "";
 
         } else {
             if (operator.equals("+")) {
@@ -330,7 +333,7 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
 
 
             }
-            num_right = "";
+            num_right =0+ "";
 
 
         }
