@@ -21,7 +21,7 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
     private TextView text;
     private TextView text2;
 
-    int distinction =0;
+    int distinction = 0;
 
     boolean checkOperator = false;
 
@@ -152,21 +152,17 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
 
                 String save[] = result.split(" ");
                 for (int i = 0; i > save.length; i++) {
-                    if (save[i].equals(" ")) {
-                        text2.setText(result);
+
+                    if (save[i].equals("+") || save[i].equals("-") || save[i].equals("*") || save[i].equals("/")) {
+                        Operate2();
+                        break;
+                    } else {
+                        break;
+
                     }
-//                        if (num_right.equals("")) {
-//                            break;
-//                        } else {
-//                            operate2();
-//                            break;
-//                        }
-//                    } else {
-//                        break;
-//                    }
 
                 }
-               // text2.setText(finalsum);
+                //  text2.setText(finalsum);
 
 //                for (int i = 0; i > result.length(); i++) {
 
@@ -296,12 +292,11 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
 
     public void Operate2() {
 
-        if (distinction== 0) {
+        if (distinction == 0) {
 
 
             if (operator.equals("+")) {
                 finalsum = Integer.parseInt(num_left) + Integer.parseInt(num_right) + "";
-
 
             } else if (operator.equals("-")) {
                 finalsum = Integer.parseInt(num_left) - Integer.parseInt(num_right) + "";
