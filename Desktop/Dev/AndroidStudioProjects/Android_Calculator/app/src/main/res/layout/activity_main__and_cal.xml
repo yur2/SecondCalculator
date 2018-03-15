@@ -1,46 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
- <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/teduri2"
-        tools:context="com.example.yurina.android_calculator.MainActivity_AndCal">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/teduri2"
+    tools:context="com.example.yurina.android_calculator.MainActivity_AndCal">
 
 
+    <LinearLayout
+        android:id="@+id/gogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
 
         <TextView
-            android:id="@+id/gogo"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
             android:layout_marginTop="85dp"
-            android:textColor="#000000"
-            android:text="계산하러 고고씽"
-            android:textSize="38dp"
-            />
+            android:text="계"
+            android:textColor="#119394"
+            android:textSize="80dp" />
 
-        <Button
+        <TextView
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="계산하기"
-            android:background="@drawable/button_selector"
-            android:textSize="24dp"
-            android:id="@+id/calculbtn"
-            android:layout_below="@+id/gogo"
-            android:layout_marginTop="20dp"
-            android:layout_centerHorizontal="true"
-            />
+            android:layout_marginTop="70dp"
+            android:text="산"
+            android:textColor="#cdd32267"
+            android:textSize="76dp" />
 
-        <ImageView
+        <TextView
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/calcul"
-            android:layout_below="@+id/calculbtn"
-            android:layout_marginTop="20dp"
-            android:layout_centerHorizontal="true"/>
+            android:layout_marginTop="85dp"
+            android:text="기"
+            android:textColor="#392"
+            android:textSize="80dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/calculbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="계산해보자!\n(CLICK)"
+        android:textSize="30dp" />
 
 
-
-    </RelativeLayout>
+</RelativeLayout>

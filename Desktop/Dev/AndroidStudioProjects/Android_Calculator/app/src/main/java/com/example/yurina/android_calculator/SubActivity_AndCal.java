@@ -1,14 +1,12 @@
 package com.example.yurina.android_calculator;
 
+import android.annotation.SuppressLint;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-//import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -18,20 +16,12 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
 
 
     private Button onebtn, twobtn, threebtn, plusbtn, fourbtn, fivebtn, sixbtn, minusbtn, sevenbtn, eightbtn, ninebtn, multibtn, zerobtn, devidebtn, stopbtn, resultbtn;
-    private TextView text;
-    private TextView text2;
-
-    int distinction = 0;
-
-    boolean checkOperator = false;
-
-    String temp = "";
-    String temp2 = "";
-    String num_right = "";
-    String num_left = "";
-    String result = "";
-    String operator = "";
-    String finalsum = "";
+    private TextView input;
+    private TextView output;
+    private String save = "";
+    private String showvalue = "";
+    private String sum = "";
+    private int sum2 = 0;
 
 
     @Override
@@ -39,14 +29,37 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sub__and_cal);
 
+        Init();
+        ListenerInit();
+    }
 
-        init();
-        setListener();
+    private void Init() {
 
+
+        onebtn = (Button) findViewById(R.id.onebtn);
+        twobtn = (Button) findViewById(R.id.twobtn);
+        threebtn = (Button) findViewById(R.id.threebtn);
+        plusbtn = (Button) findViewById(R.id.plusbtn);
+        fourbtn = (Button) findViewById(R.id.fourbtn);
+        fivebtn = (Button) findViewById(R.id.fivebtn);
+        sixbtn = (Button) findViewById(R.id.sixbtn);
+        minusbtn = (Button) findViewById(R.id.minusbtn);
+        sevenbtn = (Button) findViewById(R.id.sevenbtn);
+        eightbtn = (Button) findViewById(R.id.eightbtn);
+        ninebtn = (Button) findViewById(R.id.ninebtn);
+        multibtn = (Button) findViewById(R.id.multibtn);
+        zerobtn = (Button) findViewById(R.id.zerobtn);
+        devidebtn = (Button) findViewById(R.id.dividebtn);
+        stopbtn = (Button) findViewById(R.id.stopbtn);
+        resultbtn = (Button) findViewById(R.id.resultbtn);
+
+        input = (TextView) findViewById(R.id.input);
+        output = (TextView) findViewById(R.id.output);
 
     }
 
-    private void setListener() {
+
+    private void ListenerInit() {
 
         onebtn.setOnClickListener(this);
         twobtn.setOnClickListener(this);
@@ -67,310 +80,184 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
 
     }
 
-    private void init() {
-
-        onebtn = (Button) findViewById(R.id.onebtn);
-        twobtn = (Button) findViewById(R.id.twobtn);
-        threebtn = (Button) findViewById(R.id.threebtn);
-        plusbtn = (Button) findViewById(R.id.plusbtn);
-        fourbtn = (Button) findViewById(R.id.fourbtn);
-        fivebtn = (Button) findViewById(R.id.fivebtn);
-        sixbtn = (Button) findViewById(R.id.sixbtn);
-        minusbtn = (Button) findViewById(R.id.minusbtn);
-        sevenbtn = (Button) findViewById(R.id.sevenbtn);
-        eightbtn = (Button) findViewById(R.id.eightbtn);
-        ninebtn = (Button) findViewById(R.id.ninebtn);
-        multibtn = (Button) findViewById(R.id.multibtn);
-        zerobtn = (Button) findViewById(R.id.zerobtn);
-        devidebtn = (Button) findViewById(R.id.dividebtn);
-        stopbtn = (Button) findViewById(R.id.stopbtn);
-        resultbtn = (Button) findViewById(R.id.resultbtn);
-
-        text = (TextView) findViewById(R.id.text);
-        text2 = (TextView) findViewById(R.id.text2);
-    }
-
-
     @Override
     public void onClick(View v) {
-
         switch (v.getId()) {
-
             case R.id.onebtn:
-                number(1);
+                Number(1);
                 break;
+
             case R.id.twobtn:
-                number(2);
+                int num =2;
+                showvalue = showvalue + num;
+                input.setText(showvalue);
+                save = save + num + "";
                 break;
             case R.id.threebtn:
-                number(3);
+                showvalue = showvalue + "3";
+                input.setText(showvalue);
+                save = save + 3 + "";
                 break;
             case R.id.fourbtn:
-                number(4);
+                showvalue = showvalue + "4";
+                input.setText(showvalue);
+                save = save + 4 + "";
                 break;
             case R.id.fivebtn:
-                number(5);
+                showvalue = showvalue + "5";
+                input.setText(showvalue);
+                save = save + 5 + "";
                 break;
+
             case R.id.sixbtn:
-                number(6);
+                showvalue = showvalue + "6";
+                input.setText(showvalue);
+                save = save + 6 + "";
                 break;
+
             case R.id.sevenbtn:
-                number(7);
+                showvalue = showvalue + "7";
+                input.setText(showvalue);
+                save = save + 7 + "";
                 break;
+
             case R.id.eightbtn:
-                number(8);
+                showvalue = showvalue + "8";
+                input.setText(showvalue);
+                save = save + 8 + "";
                 break;
+
             case R.id.ninebtn:
-                number(9);
+                showvalue = showvalue + "9";
+                input.setText(showvalue);
+                save = save + 9 + "";
                 break;
 
             case R.id.zerobtn:
-                number(0);
+                showvalue = showvalue + "0";
+                input.setText(showvalue);
+                save = save + 0 + "";
                 break;
 
             case R.id.plusbtn:
-                Operate1("+");
+
+                showvalue = showvalue + "+";
+                input.setText(showvalue);
+                save = save + "+" + "";
                 break;
 
-
             case R.id.minusbtn:
-                Operate1("-");
+
+                showvalue = showvalue + "-";
+                input.setText(showvalue);
+                save = save + "-" + "";
                 break;
 
             case R.id.multibtn:
-                Operate1("*");
+
+                showvalue = showvalue + "*";
+                input.setText(showvalue);
+                save = save + "*" + "";
                 break;
 
             case R.id.dividebtn:
-                Operate1("/");
+
+                showvalue = showvalue + "/";
+                input.setText(showvalue);
+                save = save + "/" + "";
                 break;
 
             case R.id.resultbtn:
+                showvalue = showvalue + "=";
+                input.setText(showvalue);
+                save = save + "=" + "";
+                Operate();
+                output.setText(sum2+"");
+                //break;
 
-                result = result + " " + "=";
-                text.setText(result);
+            case R.id.stopbtn:
+                Clearall();
+                break;
 
-                String save[] = result.split("");
+        }
+    }
+
+    public void Clearall(){
+        showvalue ="";
+        save ="";
+        sum2 =0;
+
+        input.setText("");
+        output.setText("");
 
 
-                for (int i = 0; i < save.length; i++) {
+    }
 
+    public void Number(int num) {
+        if(num==1){
+            showvalue = showvalue + num+"";
+            input.setText(showvalue);
+            save = save + num + "";
+        }
 
+    }
 
-                    if ("+".equals(save[i]) || "-".equals(save[i]) || "*".equals(save[i]) || "/".equals(save[i])) {
+    public void Operate() {
 
-                        Operate2();
+        ArrayList<String> operate = new ArrayList();
 
+        String finalsave[] = save.split("");
+        for (int i = 0; i < finalsave.length; i++) {
+            if ("+".equals(finalsave[i]) || "-".equals(finalsave[i]) || "*".equals(finalsave[i]) || "/".equals(finalsave[i])) {
+                operate.add(finalsave[i]);
 
+                if ("+".equals(finalsave[i])) {
+                    if (i == 2) {
+                        sum2 = Integer.parseInt(finalsave[i - 1]) + Integer.parseInt(finalsave[i + 1]);
+                        break;
+                       // output.setText(sum2);
+                    } else {
+                        sum2 = sum2 + Integer.parseInt(finalsave[i + 1]);
+                        break;
+                    }
+
+                } else if ("-".equals(finalsave[i])) {
+                    if (i == 2) {
+                        sum2 = Integer.parseInt(finalsave[i - 1]) - Integer.parseInt(finalsave[i + 1]);
+                        break;
+                    } else {
+                        sum2 = sum2 - Integer.parseInt(finalsave[i + 1]);
+                        break;
+                    }
+                } else if ("+".equals(finalsave[i])) {
+                    if (i == 2) {
+                        sum2 = Integer.parseInt(finalsave[i - 1]) * Integer.parseInt(finalsave[i + 1]);
+                        break;
+                    } else {
+                        sum2 = sum2 * Integer.parseInt(finalsave[i + 1]);
+                        break;
+                    }
+
+                } else if ("/".equals(finalsave[i])) {
+                    if (i == 2) {
+                        sum2 = Integer.parseInt(finalsave[i - 1]) / Integer.parseInt(finalsave[i + 1]);
+                        break;
+                    } else {
+                        sum2 = sum2 / Integer.parseInt(finalsave[i + 1]);
+                        break;
                     }
 
                 }
-                 text2.setText(finalsum);
 
-//                for (int i = 0; i > result.length(); i++) {
-
-//                    if (" ".equals(result.charAt(i))) {
-//                        if (num_right.equals("")) {
-//
-//                        } else {
-//                            operate2();
-//
-//                        }
-//
-//                    } else {
-//
-//                    }
-//
-//
-//                }
-
-                //operate2();
-
-                // text2.setText(finalsum);
-
-
-                break;
-
-            case R.id.stopbtn:
-                ClearAll();
-                break;
-
-            default:
-                break;
-        }
-    }
-
-    public void number(int i) {
-
-        if (checkOperator == false) {
-
-            if (i == 0) {
-                processNumber(i);
-
-            } else if (i == 1) {
-                processNumber(i);
-
-            } else if (i == 2) {
-                processNumber(i);
-
-            } else if (i == 3) {
-                processNumber(i);
-
-            } else if (i == 4) {
-                processNumber(i);
-
-            } else if (i == 5) {
-                processNumber(i);
-
-            } else if (i == 6) {
-                processNumber(i);
-
-            } else if (i == 7) {
-                processNumber(i);
-
-            } else if (i == 8) {
-                processNumber(i);
-
-            } else if (i == 9) {
-                processNumber(i);
 
             }
-        } else
-
-        {
-            if (i == 0) {
-                processNumber(i);
-
-            } else if (i == 1) {
-                processNumber(i);
-
-            } else if (i == 2) {
-                processNumber(i);
-
-            } else if (i == 3) {
-                processNumber(i);
-
-            } else if (i == 4) {
-                processNumber(i);
-
-            } else if (i == 5) {
-                processNumber(i);
-
-            } else if (i == 6) {
-                processNumber(i);
-
-            } else if (i == 7) {
-                processNumber(i);
-
-            } else if (i == 8) {
-                processNumber(i);
-
-            } else if (i == 9) {
-                processNumber(i);
+            else{
 
             }
 
 
         }
-    }
-
-    private void processNumber(int i) {
-
-        if (checkOperator == false) {
-            temp = i + "";
-            num_left = num_left+ i + "";
-            result = result + temp;
-            text.setText(result);
-
-        } else {
-            temp2 = i + "";
-            num_right = num_right+ i + "";
-            result = result + temp2;
-            text.setText(result);
-
-        }
 
     }
-
-
-    public void Operate2() {
-
-        if (distinction == 0) {
-
-
-            if (operator.equals("+")) {
-                finalsum = Integer.parseInt(num_left) + Integer.parseInt(num_right) + "";
-
-            } else if (operator.equals("-")) {
-                finalsum = Integer.parseInt(num_left) - Integer.parseInt(num_right) + "";
-
-
-            } else if (operator.equals("*")) {
-                finalsum = Integer.parseInt(num_left) * Integer.parseInt(num_right) + "";
-
-            } else if (operator.equals("/")) {
-                finalsum = Integer.parseInt(num_left) / Integer.parseInt(num_right) + "";
-
-            }
-            distinction++;
-            num_right =0+ "";
-
-        } else {
-            if (operator.equals("+")) {
-                finalsum = Integer.parseInt(finalsum) + Integer.parseInt(num_right) + "";
-
-
-            } else if (operator.equals("-")) {
-                finalsum = Integer.parseInt(finalsum) - Integer.parseInt(num_right) + "";
-
-
-            } else if (operator.equals("*")) {
-                finalsum = (Integer.parseInt(finalsum) * Integer.parseInt(num_right)) + "";
-
-
-            } else if (operator.equals("/")) {
-                finalsum = Integer.parseInt(finalsum) / Integer.parseInt(num_right) + "";
-
-
-            }
-            num_right =0+ "";
-
-
-        }
-
-
-    }
-
-    public void ClearAll() {
-
-        temp = "";
-        temp2 = "";
-        operator = "";
-        result = "";
-        num_left = "";
-        num_right = "";
-        finalsum = "";
-
-
-        distinction = 0;
-
-        checkOperator = false;
-
-        text.setText(result);
-        text2.setText(finalsum);
-    }
-
-    public void Operate1(String ope1) {
-
-        if (ope1.equals("+") || ope1.equals("-") || ope1.equals("*") || ope1.equals("/")) {
-            checkOperator = true;
-            operator = ope1;
-            result = result + " " + operator + " ";
-            text.setText(result);
-
-        }
-
-    }
-
 
 }

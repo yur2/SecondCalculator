@@ -7,249 +7,235 @@
     android:background="#e0e0e0"
     tools:context="com.example.yurina.android_calculator.SubActivity_AndCal">
 
-<LinearLayout
-    android:layout_width="wrap_content"
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="6"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:id="@+id/Text"
-    android:background="@drawable/teduri2"
-    android:layout_marginTop="20dp"
-    android:layout_marginRight="10dp"
-    android:layout_marginLeft="10dp"
-    android:layout_centerHorizontal="true">
+    android:background="@drawable/button_selector"
+    android:id="@+id/one"
+        android:layout_weight="2">
+    <!--android:layout_marginTop="10dp">-->
 
     <TextView
-        android:id="@+id/text"
-        android:layout_width="330dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="30dp"
+        android:id="@+id/input"
         android:gravity="right"
-        android:layout_alignParentRight="true"
+        android:textSize="50dp"
         />
 
     <TextView
-        android:id="@+id/text2"
-        android:layout_width="330dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="40dp"
+        android:id="@+id/output"
         android:gravity="right"
-        android:layout_below="@+id/text" />
-
-</LinearLayout>
-
-<LinearLayout
-    android:id="@+id/onelinear"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginLeft="10dp"
-    android:layout_marginRight="10dp"
-    android:layout_marginTop="20dp"
-    android:layout_below="@+id/Text"
-    android:weightSum="4"
-    android:layout_centerHorizontal="true"
-    >
-
-    <Button
-        android:id="@+id/sevenbtn"
-        android:layout_width="85dp"
-        android:layout_height="85dp"
-        android:layout_weight="1"
-        android:shadowRadius="5"
-        android:background="@drawable/teduri"
-        android:text="7"
-        android:textSize="40dp" />
-
-    <!--android:shadowColor="#A8A8A8"-->
-    <!--android:shadowDx="0"-->
-    <!--android:shadowDy="0"-->
-
-
-    <Button
-        android:id="@+id/eightbtn"
-        android:layout_width="85dp"
-        android:layout_height="85dp"
-        android:layout_weight="1"
-        android:background="@drawable/teduri"
-        android:text="8"
-        android:textSize="40dp" />
-
-    <Button
-        android:id="@+id/ninebtn"
-        android:layout_width="85dp"
-        android:layout_height="85dp"
-        android:layout_weight="1"
-        android:text="9"
-        android:background="@drawable/teduri"
-        android:textSize="40dp" />
-
-    <Button
-        android:id="@+id/plusbtn"
-        android:layout_width="85dp"
-        android:layout_height="85dp"
-        android:layout_weight="1"
-        android:text="+"
-        android:background="@drawable/teduri"
-        android:textSize="40dp" />
-</LinearLayout>
-
-<LinearLayout
-    android:id="@+id/twolinear"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_below="@+id/onelinear"
-    android:layout_marginLeft="10dp"
-    android:layout_marginRight="10dp"
-    android:weightSum="4"
-    android:layout_centerHorizontal="true">
-
-    <Button
-        android:id="@+id/fourbtn"
-        android:layout_width="85dp"
-        android:layout_height="85dp"
-        android:layout_weight="1"
-        android:text="4"
-        android:background="@drawable/teduri"
-        android:textSize="40dp" />
-
-    <Button
-        android:id="@+id/fivebtn"
-        android:layout_width="85dp"
-        android:layout_height="85dp"
-        android:layout_weight="1"
-        android:text="5"
-        android:background="@drawable/teduri"
-        android:textSize="40dp" />
-
-    <Button
-        android:id="@+id/sixbtn"
-        android:layout_width="85dp"
-        android:layout_height="85dp"
-        android:layout_weight="1"
-        android:text="6"
-        android:background="@drawable/teduri"
-        android:textSize="40dp" />
-
-    <Button
-        android:id="@+id/minusbtn"
-        android:layout_width="85dp"
-        android:layout_height="85dp"
-        android:layout_weight="1"
-        android:text="-"
-        android:background="@drawable/teduri"
-        android:textSize="40dp" />
-
-
-</LinearLayout>
-
-
-<LinearLayout
-    android:id="@+id/threelinear"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_below="@+id/twolinear"
-    android:layout_marginLeft="10dp"
-    android:layout_marginRight="10dp"
-    android:weightSum="4"
-    android:layout_centerHorizontal="true">
-
-    <Button
-        android:id="@+id/onebtn"
-        android:layout_width="85dp"
-        android:layout_height="85dp"
-        android:layout_weight="1"
-        android:background="@drawable/teduri"
-        android:text="1"
-        android:textSize="40dp" />
-
-    <Button
-        android:id="@+id/twobtn"
-        android:layout_width="85dp"
-        android:layout_height="85dp"
-        android:layout_weight="1"
-        android:text="2"
-        android:background="@drawable/teduri"
-        android:textSize="40dp" />
-
-    <Button
-        android:id="@+id/threebtn"
-        android:layout_width="85dp"
-        android:layout_height="85dp"
-        android:layout_weight="1"
-        android:text="3"
-        android:background="@drawable/teduri"
-        android:textSize="40dp" />
-
-    <Button
-        android:id="@+id/multibtn"
-        android:layout_width="85dp"
-        android:layout_height="85dp"
-        android:layout_weight="1"
-        android:text="*"
-        android:background="@drawable/teduri"
-        android:textSize="40dp" />
-
-
-</LinearLayout>
-
-
-<LinearLayout
-    android:id="@+id/fourlinear"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_below="@+id/threelinear"
-    android:layout_marginLeft="10dp"
-    android:layout_marginRight="10dp"
-    android:weightSum="4"
-    android:layout_centerHorizontal="true">
-
-    <Button
-        android:id="@+id/zerobtn"
-        android:layout_width="85dp"
-        android:layout_height="85dp"
-        android:layout_weight="1"
-        android:text="0"
-        android:background="@drawable/teduri"
-        android:textSize="40dp" />
-
-
-
-    <Button
-        android:id="@+id/stopbtn"
-        android:layout_width="85dp"
-        android:layout_height="85dp"
-        android:layout_weight="1"
-        android:background="@drawable/teduri"
-        android:text="AC"
         android:textSize="40dp"
-
         />
+</LinearLayout>
 
-    <Button
-        android:id="@+id/resultbtn"
-        android:layout_width="85dp"
-        android:layout_height="85dp"
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/one"
+        android:id="@+id/two"
+        android:weightSum="4"
         android:layout_weight="1"
         android:background="@drawable/button_selector"
-        android:text="="
-        android:textSize="40dp" />
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="50dp"
+            android:text="7"
+            android:id="@+id/sevenbtn"
+            android:background="@drawable/teduri"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="50dp"
+            android:text="8"
+            android:id="@+id/eightbtn"
+            android:background="@drawable/teduri2"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="50dp"
+            android:text="9"
+            android:id="@+id/ninebtn"
+            android:background="@drawable/teduri"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="50dp"
+            android:text="+"
+            android:id="@+id/plusbtn"
+            android:background="@drawable/teduri2"
+            />
 
-    <Button
-        android:id="@+id/dividebtn"
-        android:layout_width="85dp"
-        android:layout_height="85dp"
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/two"
+        android:id="@+id/three"
+        android:weightSum="4"
         android:layout_weight="1"
-        android:background="@drawable/teduri"
-        android:text="/"
-        android:textSize="40dp" />
+        android:background="@drawable/button_selector"
 
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="50dp"
+            android:text="4"
+            android:id="@+id/fourbtn"
+            android:background="@drawable/teduri2"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="50dp"
+            android:text="5"
+            android:id="@+id/fivebtn"
+            android:background="@drawable/teduri"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="50dp"
+            android:text="6"
+            android:background="@drawable/teduri2"
+            android:id="@+id/sixbtn"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="50dp"
+            android:text="-"
+            android:id="@+id/minusbtn"
+            android:background="@drawable/teduri"
+            />
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/three"
+        android:id="@+id/four"
+        android:weightSum="4"
+        android:layout_weight="1"
+        android:background="@drawable/button_selector"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="50dp"
+            android:text="1"
+            android:id="@+id/onebtn"
+            android:background="@drawable/teduri"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="50dp"
+            android:text="2"
+            android:background="@drawable/teduri2"
+            android:id="@+id/twobtn"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="50dp"
+            android:text="3"
+            android:id="@+id/threebtn"
+            android:background="@drawable/teduri"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="50dp"
+            android:text="*"
+            android:background="@drawable/teduri2"
+            android:id="@+id/multibtn"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/four"
+        android:id="@+id/five"
+        android:weightSum="4"
+        android:layout_weight="1"
+        android:background="@drawable/button_selector"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="50dp"
+            android:text= "0"
+            android:background="@drawable/teduri2"
+            android:id="@+id/zerobtn"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="50dp"
+            android:text=" AC"
+            android:id="@+id/stopbtn"
+            android:background="@drawable/teduri"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="50dp"
+            android:text="="
+            android:background="@drawable/teduri2"
+            android:id="@+id/resultbtn"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="50dp"
+            android:text="/"
+            android:id="@+id/dividebtn"
+            android:background="@drawable/teduri"
+            />
+    </LinearLayout>
 
 
 </LinearLayout>
-
-
-
-
 
 
 </RelativeLayout>

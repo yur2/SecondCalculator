@@ -22,7 +22,7 @@
 
     <item android:state_pressed="false">
         <shape>
-            <solid android:color="#ad82"/>
+            <solid android:color="#fff294"/>
             <stroke android:color="@color/colorPrimaryDark" android:width="2dp"/>
             <corners android:bottomLeftRadius="7dp" android:bottomRightRadius="7dp" android:topLeftRadius="7dp" android:topRightRadius="7dp" />
 
