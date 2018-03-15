@@ -88,92 +88,74 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
                 break;
 
             case R.id.twobtn:
-                int num =2;
-                showvalue = showvalue + num;
-                input.setText(showvalue);
-                save = save + num + "";
+                Number(2);
                 break;
             case R.id.threebtn:
-                showvalue = showvalue + "3";
-                input.setText(showvalue);
-                save = save + 3 + "";
+                Number(3);
+
                 break;
             case R.id.fourbtn:
-                showvalue = showvalue + "4";
-                input.setText(showvalue);
-                save = save + 4 + "";
+                Number(4);
                 break;
             case R.id.fivebtn:
-                showvalue = showvalue + "5";
-                input.setText(showvalue);
-                save = save + 5 + "";
+                Number(5);
                 break;
 
             case R.id.sixbtn:
-                showvalue = showvalue + "6";
-                input.setText(showvalue);
-                save = save + 6 + "";
+                Number(6);
                 break;
 
             case R.id.sevenbtn:
-                showvalue = showvalue + "7";
-                input.setText(showvalue);
-                save = save + 7 + "";
+                Number(7);
                 break;
 
             case R.id.eightbtn:
-                showvalue = showvalue + "8";
-                input.setText(showvalue);
-                save = save + 8 + "";
+                Number(8);
                 break;
 
             case R.id.ninebtn:
-                showvalue = showvalue + "9";
-                input.setText(showvalue);
-                save = save + 9 + "";
+                Number(9);
                 break;
 
             case R.id.zerobtn:
-                showvalue = showvalue + "0";
-                input.setText(showvalue);
-                save = save + 0 + "";
+                Number(0);
                 break;
 
             case R.id.plusbtn:
 
-                showvalue = showvalue + "+";
+                showvalue = showvalue + " " + "+" + " ";
                 input.setText(showvalue);
-                save = save + "+" + "";
+                save = save + " " + "+" + " ";
                 break;
 
             case R.id.minusbtn:
 
-                showvalue = showvalue + "-";
+                showvalue = showvalue + " " + "-" + " ";
                 input.setText(showvalue);
-                save = save + "-" + "";
+                save = save + " " + "-" + " ";
                 break;
 
             case R.id.multibtn:
 
-                showvalue = showvalue + "*";
+                showvalue = showvalue + " " + "*" + " ";
                 input.setText(showvalue);
-                save = save + "*" + "";
+                save = save + " " + "*" + " ";
                 break;
 
             case R.id.dividebtn:
 
-                showvalue = showvalue + "/";
+                showvalue = showvalue + " " + "/" + " ";
                 input.setText(showvalue);
-                save = save + "/" + "";
+                save = save + " " + "/" + " ";
                 break;
 
             case R.id.resultbtn:
-                showvalue = showvalue + "=";
+                showvalue = showvalue + " " + "=";
                 input.setText(showvalue);
-                save = save + "=" + "";
+                save = save + " " + "=";
                 Operate();
                 output.setText(sum2+"");
-                //break;
+                break;
 
             case R.id.stopbtn:
                 Clearall();
@@ -182,10 +164,10 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
         }
     }
 
-    public void Clearall(){
-        showvalue ="";
-        save ="";
-        sum2 =0;
+    public void Clearall() {
+        showvalue = "";
+        save = "";
+        sum2 = 0;
 
         input.setText("");
         output.setText("");
@@ -194,10 +176,47 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
     }
 
     public void Number(int num) {
-        if(num==1){
-            showvalue = showvalue + num+"";
+        if (num == 1) {
+            showvalue = showvalue + num + "";
             input.setText(showvalue);
             save = save + num + "";
+        } else if (num == 2) {
+            showvalue = showvalue + num + "";
+            input.setText(showvalue);
+            save = save + num + "";
+        } else if (num == 3) {
+            showvalue = showvalue + num + "";
+            input.setText(showvalue);
+            save = save + num + "";
+        } else if (num == 4) {
+            showvalue = showvalue + num + "";
+            input.setText(showvalue);
+            save = save + num + "";
+        } else if (num == 5) {
+            showvalue = showvalue + num + "";
+            input.setText(showvalue);
+            save = save + num + "";
+        } else if (num == 6) {
+            showvalue = showvalue + num + "";
+            input.setText(showvalue);
+            save = save + num + "";
+        } else if (num == 7) {
+            showvalue = showvalue + num + "";
+            input.setText(showvalue);
+            save = save + num + "";
+        } else if (num == 8) {
+            showvalue = showvalue + num + "";
+            input.setText(showvalue);
+            save = save + num + "";
+        } else if (num == 9) {
+            showvalue = showvalue + num + "";
+            input.setText(showvalue);
+            save = save + num + "";
+        } else if (num == 0) {
+            showvalue = showvalue + num + "";
+            input.setText(showvalue);
+            save = save + num + "";
+
         }
 
     }
@@ -206,52 +225,51 @@ public class SubActivity_AndCal extends AppCompatActivity implements OnClickList
 
         ArrayList<String> operate = new ArrayList();
 
-        String finalsave[] = save.split("");
+        String finalsave[] = save.split(" ");
         for (int i = 0; i < finalsave.length; i++) {
             if ("+".equals(finalsave[i]) || "-".equals(finalsave[i]) || "*".equals(finalsave[i]) || "/".equals(finalsave[i])) {
                 operate.add(finalsave[i]);
 
                 if ("+".equals(finalsave[i])) {
-                    if (i == 2) {
+                    if (i == 1) {
                         sum2 = Integer.parseInt(finalsave[i - 1]) + Integer.parseInt(finalsave[i + 1]);
-                        break;
-                       // output.setText(sum2);
+
+
                     } else {
                         sum2 = sum2 + Integer.parseInt(finalsave[i + 1]);
-                        break;
                     }
 
                 } else if ("-".equals(finalsave[i])) {
-                    if (i == 2) {
+                    if (i == 1) {
                         sum2 = Integer.parseInt(finalsave[i - 1]) - Integer.parseInt(finalsave[i + 1]);
-                        break;
+
                     } else {
                         sum2 = sum2 - Integer.parseInt(finalsave[i + 1]);
-                        break;
+
+
                     }
-                } else if ("+".equals(finalsave[i])) {
-                    if (i == 2) {
+                } else if ("*".equals(finalsave[i])) {
+                    if (i == 1) {
                         sum2 = Integer.parseInt(finalsave[i - 1]) * Integer.parseInt(finalsave[i + 1]);
-                        break;
+
                     } else {
                         sum2 = sum2 * Integer.parseInt(finalsave[i + 1]);
-                        break;
+
                     }
 
                 } else if ("/".equals(finalsave[i])) {
-                    if (i == 2) {
+                    if (i == 1) {
                         sum2 = Integer.parseInt(finalsave[i - 1]) / Integer.parseInt(finalsave[i + 1]);
-                        break;
+
                     } else {
                         sum2 = sum2 / Integer.parseInt(finalsave[i + 1]);
-                        break;
+
                     }
 
                 }
 
 
-            }
-            else{
+            } else {
 
             }
 
