@@ -4,9 +4,16 @@ package com.example.yurina.webtoonrecy;
 class Webtoon {
     private String image;
     private String text;
-    private String image2;
+    private int image2;
     private String text2;
 
+    public int getImage2() {
+        return image2;
+    }
+
+    public void setImage2(int image2) {
+        this.image2 = image2;
+    }
 
     public String getImage() {
         return image;
@@ -24,13 +31,6 @@ class Webtoon {
         this.text = text;
     }
 
-    public String getImage2() {
-        return image2;
-    }
-
-    public void setImage2(String image2) {
-        this.image2 = image2;
-    }
 
     public String getText2() {
         return text2;
